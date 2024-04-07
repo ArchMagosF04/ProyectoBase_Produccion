@@ -33,6 +33,7 @@ public class Movement : MonoBehaviour
 
     private void FixedUpdate()
     {
+
         if (isDashing) { return; }
         playerRB.MovePosition(playerRB.position + MoveInput * Speed * Time.fixedDeltaTime);//ejecuta el movimiento.
     }
