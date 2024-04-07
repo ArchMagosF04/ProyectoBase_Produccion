@@ -179,6 +179,7 @@ MonoBehaviour:
   rotationSpeed: 100
   front: {fileID: 7685450191751559929}
   punch: {fileID: 6969758743889377466}
+  minDistanceToFollow: 18
 --- !u!70 &4434355226304115954
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -226,21 +227,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a92a297c8e536df4e8be781f79c0320a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onDeath:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4355531636258392281}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   Maxhealth: 100
   CurrentHealth: 0
 --- !u!1 &5240256529154116861

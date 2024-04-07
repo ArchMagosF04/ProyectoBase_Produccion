@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.Escape))
         {
-            Application.Quit();
+            SceneManager.LoadScene("MainMenu");
         }
     }
 
@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
 
     public void Death()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Level 1");
     }
 
 }
