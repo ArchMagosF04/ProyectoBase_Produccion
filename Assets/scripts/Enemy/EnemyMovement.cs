@@ -76,7 +76,7 @@ public class EnemyMovement : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Player in Range");
+            //Debug.Log("Player in Range");
             if(onCooldown==false)
             {
                 Invoke("AttackPlayer", 0.5f);
@@ -101,7 +101,7 @@ public class EnemyMovement : MonoBehaviour
     {
         if(onCooldown==false)
         {
-            Debug.Log("Punch");
+            //Debug.Log("Punch");
             Timer = 1.3f;
             launchAttack = true;
             punch.gameObject.SetActive(true);

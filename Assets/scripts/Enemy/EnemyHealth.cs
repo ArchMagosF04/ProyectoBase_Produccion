@@ -5,8 +5,6 @@ using UnityEngine.Events;
 
 public class EnemyHealth : MonoBehaviour
 {
-   // public UnityEvent onDeath = new UnityEvent();
-    //private GameObject GB;
     [SerializeField] private int Maxhealth = 100;
     [SerializeField] private int CurrentHealth;
 
@@ -17,12 +15,11 @@ public class EnemyHealth : MonoBehaviour
         CurrentHealth = Maxhealth;
     }
 
-    public void TakeDamage(int Damage) 
+    public void TakeDamage(int damage) 
     {
-        CurrentHealth -= Damage;
+        CurrentHealth -= damage;
         if (CurrentHealth <= 0) 
         {
-            //onDeath.Invoke();
             Die();
         }
     }
