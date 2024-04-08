@@ -163,7 +163,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2684815127174619242}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.70710707, w: 0.70710653}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -398,7 +398,7 @@ MonoBehaviour:
   anim: {fileID: 6847066137863962609}
   kickSpeed: 0.7
   punchSpeed: 0.2
-  punchDamage: 8
+  punchDamage: 10
   kickDamage: 25
 --- !u!1 &4489511842657498276
 GameObject:

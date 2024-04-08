@@ -5,8 +5,8 @@ using UnityEngine.Events;
 
 public class EnemyHealth : MonoBehaviour
 {
-    [SerializeField] private int Maxhealth = 100;
-    [SerializeField] private int CurrentHealth;
+    [SerializeField] private float Maxhealth = 100f;
+    [SerializeField] private float CurrentHealth;
 
     // Update is called once per frame
     void Start()
@@ -15,10 +15,10 @@ public class EnemyHealth : MonoBehaviour
         CurrentHealth = Maxhealth;
     }
 
-    public void TakeDamage(int damage) 
+    public void TakeDamage(float damage) 
     {
         CurrentHealth -= damage;
-        if (CurrentHealth <= 0) 
+        if (CurrentHealth <= 0f) 
         {
             Die();
         }
