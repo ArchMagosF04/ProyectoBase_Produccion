@@ -15,6 +15,7 @@ public class Movement : MonoBehaviour
     [SerializeField] private float DashCoolDown = 1.5f;
     private bool isDashing = false;
     private bool canDash = true;
+    public bool StartDialogue = false;
 
     void Start()
     {
@@ -24,11 +25,15 @@ public class Movement : MonoBehaviour
     
     void Update()
     {
-        CalculateMovment();
-
-        if (Input.GetKeyDown(KeyCode.Space) && canDash == true) 
+        if (!StartDialogue)
         {
-            StartCoroutine(Dash());
+            CalculateMovment();
+
+            if (Input.GetKeyDown(KeyCode.Space) && canDash == true)
+            {
+                StartCoroutine(Dash());
+            }
+
         }
     }
 
@@ -56,4 +61,9 @@ public class Movement : MonoBehaviour
         yield return new WaitForSeconds(DashCoolDown);
         canDash = true;
     }
+
+    /*public void StartDialogue(bool dialogueStatus) 
+    {
+        didStartDialogue = dialogueStatus;
+    }*/
 }
