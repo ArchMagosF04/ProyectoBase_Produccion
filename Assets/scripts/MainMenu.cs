@@ -10,6 +10,11 @@ public class MainMenu : MonoBehaviour
        SceneManager.LoadScene("Level 1");
     }
 
+    public void Play2()
+    {
+        SceneManager.LoadScene("Endless");
+    }
+
     public void Exit()
     {
         Debug.Log("Salir");

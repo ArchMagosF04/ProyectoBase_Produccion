@@ -9,10 +9,10 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private float kickSpeed=0.7f;
     [SerializeField] private float punchSpeed=0.2f;
 
-    [SerializeField] private int punchDamage=10;
-    [SerializeField] private int kickDamage=25;
+    [SerializeField] private float punchDamage=10f;
+    [SerializeField] private float kickDamage=25f;
 
-    private int damage;
+    private float damage;
 
     float timeUntilKick;
     float timeUntilPunch;
