@@ -10,17 +10,27 @@ public class PlayerCombo : MonoBehaviour
     private string punchName = "Punch";
     private string kickName = "Kick";
 
+    [SerializeField] public Collider2D hitbox;
+
+    private List<Collider2D> collidersDamaged;
+
 
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
+        collidersDamaged = new List<Collider2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
         Combos();
+
+        if (animator.GetFloat("Weapon.Active") > 0f)
+        {
+            Attack();
+        }
     }
 
     public void Combos()
@@ -81,5 +91,31 @@ public class PlayerCombo : MonoBehaviour
     {
         punchName = "PunchD";
         kickName = "KickD";
+    }
+
+    private void Attack()
+    {
+        Collider2D[] collidersToDamage = new Collider2D[10];
+        ContactFilter2D filter = new ContactFilter2D();
+        filter.useTriggers = true;
+        int colliderCount = Physics2D.OverlapCollider(hitbox, filter, collidersToDamage);
+        for (int i = 0; i < colliderCount; i++)
+        {
+
+            if (!collidersDamaged.Contains(collidersToDamage[i]))
+            {
+                TeamComponent hitTeamComponent = collidersToDamage[i].GetComponentInChildren<TeamComponent>();
+
+                // Only check colliders with a valid Team Componnent attached
+                if (hitTeamComponent && hitTeamComponent.teamIndex == TeamIndex.Enemy)
+                {
+                    Debug.Log("Enemy Has Taken:" + combo + "Damage");
+                    collidersDamaged.Add(collidersToDamage[i]);
+                    collidersToDamage[i].GetComponent<EnemyHealth>().TakeDamage(5);
+                }
+            }
+        }
+
+        collidersDamaged.Clear();
     }
 }

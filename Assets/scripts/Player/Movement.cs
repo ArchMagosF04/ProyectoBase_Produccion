@@ -25,10 +25,10 @@ public class Movement : MonoBehaviour
     
     void Update()
     {
+        CalculateMovment();
+
         if (!StartDialogue)
         {
-            CalculateMovment();
-
             if (Input.GetKeyDown(KeyCode.Space) && canDash == true)
             {
                 StartCoroutine(Dash());
@@ -47,6 +47,13 @@ public class Movement : MonoBehaviour
     {
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
+
+        if (StartDialogue) //Si hay un dialogo en proceso cancela el movimiento.
+        {
+            moveX = 0;
+            moveY = 0;
+        }
+
         MoveInput = new Vector2(moveX, moveY).normalized;//toma los resultados de moveX y moveY para crear un vector que va del -1 al 1,
                                                          //esta informacio se usa en el fixedUpdate para el movimiento.
     } 

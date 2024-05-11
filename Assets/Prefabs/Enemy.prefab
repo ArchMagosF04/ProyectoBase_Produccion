@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 101854312444856844}
   - component: {fileID: 4434355226304115954}
   - component: {fileID: 7603441714284913617}
+  - component: {fileID: 3039772656768647843}
   m_Layer: 6
   m_Name: Enemy
   m_TagString: Enemy
@@ -79,7 +80,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -229,6 +230,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Maxhealth: 100
   CurrentHealth: 0
+--- !u!114 &3039772656768647843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4355531636258392281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4278527d451dc8469d24e61fc9fb1d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _teamIndex: 2
 --- !u!1 &5240256529154116861
 GameObject:
   m_ObjectHideFlags: 0
@@ -301,7 +315,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
   m_Color: {r: 1, g: 0.5928857, b: 0.08962262, a: 1}
   m_FlipX: 0

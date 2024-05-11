@@ -17,7 +17,7 @@ public class Dialogue : MonoBehaviour
 
     void Update()
     {
-        if (isPlaterInRange && Input.GetButtonDown("Fire1"))
+        if (isPlaterInRange && Input.GetKeyDown(KeyCode.E))
         {
             if (!didDialogueStart)
             {
