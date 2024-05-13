@@ -33,7 +33,6 @@ public class Movement : MonoBehaviour
             {
                 StartCoroutine(Dash());
             }
-
         }
     }
 

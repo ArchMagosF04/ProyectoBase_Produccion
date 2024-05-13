@@ -7,10 +7,10 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
-    public int enemyCount;
-    public int enemyKilled;
+    //public int enemyCount;
+    //public int enemyKilled;
 
-    public GameObject Goal;
+    //public GameObject Goal;
 
     private void Awake()
     {
@@ -26,14 +26,14 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        EnemyHealth[] enemies = FindObjectsOfType<EnemyHealth>();
+        //EnemyHealth[] enemies = FindObjectsOfType<EnemyHealth>();
 
-        Goal.SetActive(false);
+        //Goal.SetActive(false);
 
-        foreach (var enemy in enemies)
-        {
-            enemyCount++;
-        }
+        //foreach (var enemy in enemies)
+        //{
+        //    enemyCount++;
+        //}
     }
 
     private void Update()
@@ -42,10 +42,10 @@ public class GameManager : MonoBehaviour
         {
             ReturnMenu();
         }
-        if (enemyKilled==enemyCount)
-        {
-            Goal.SetActive(true);
-        }
+        //if (enemyKilled==enemyCount)
+        //{
+        //    Goal.SetActive(true);
+        //}
     }
 
     private void OnDestroy()
@@ -67,9 +67,9 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
-    public void EnemyDestroyed()
-    {
-        enemyKilled++;
-    }
+    //public void EnemyDestroyed()
+    //{
+    //    enemyKilled++;
+    //}
 
 }
