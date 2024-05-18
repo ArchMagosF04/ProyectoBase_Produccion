@@ -84,6 +84,7 @@ public class ScreenManager : MonoBehaviour
         Time.timeScale = 1;
         string levelName = "MainMenu";
         StartCoroutine(LoadSceneAsynchronously(levelName));
+        Debug.Log("Go to menu");
     }
 
     public void GameOverScreen()
@@ -100,8 +101,9 @@ public class ScreenManager : MonoBehaviour
     public void NextLevel()
     {
         Time.timeScale = 1;
-        string levelName = "Level" + nextSceneNumber;
+        string levelName = "Level " + nextSceneNumber;
         StartCoroutine(LoadSceneAsynchronously(levelName));
+        Debug.Log("Next level " + nextSceneNumber);
     }
 
     IEnumerator LoadSceneAsynchronously(string sceneName)

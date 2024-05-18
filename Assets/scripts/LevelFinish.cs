@@ -5,11 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class LevelFinish : MonoBehaviour
 {
+    [SerializeField] private bool shouldUnlock;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            UnlockNewLevel();
+            if(shouldUnlock)
+            {
+                UnlockNewLevel();
+            }
             ScreenManager.Instance.LevelCompleted();
         }
     }

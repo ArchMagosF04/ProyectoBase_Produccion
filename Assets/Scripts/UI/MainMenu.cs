@@ -8,6 +8,19 @@ public class MainMenu : MonoBehaviour
 {
     public GameObject loadingScreen;
     public Slider loadingBar;
+    [SerializeField] private Button codexButton;
+
+
+    private void Awake()
+    {
+        loadingScreen.SetActive(false);
+        codexButton.interactable = false;
+
+        if(PlayerPrefs.GetInt("UnlockedLevel")  == 2 )
+        {
+            codexButton.interactable=true;
+        }
+    }
 
     public void Exit()
     {

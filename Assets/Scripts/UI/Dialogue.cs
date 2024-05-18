@@ -11,7 +11,7 @@ public class Dialogue : MonoBehaviour
     [SerializeField] private TMP_Text dialogueText;
     [SerializeField, TextArea(4,6)] private string[] dialogueLines;//el text area sirve pra espesificar primero el minimo a maximo de lineas de dialog a mostra
 
-    private bool isPlaterInRange;
+    private bool isPlayerInRange;
     private bool didDialogueStart;
     private int lineIndex;
     private float typingTime= 0.05f;
@@ -19,7 +19,7 @@ public class Dialogue : MonoBehaviour
 
     void Update()
     {
-        if (isPlaterInRange && Input.GetKeyDown(KeyCode.E))
+        if (isPlayerInRange && Input.GetKeyDown(KeyCode.E))
         {
             DialogueStructure();
         }
@@ -65,6 +65,13 @@ public class Dialogue : MonoBehaviour
             dialoguePanel.SetActive(false);
             dialogueMark.SetActive(true);
             script.StartDialogue = false;
+
+            if(!isInteractable)
+            {
+                Destroy(gameObject);
+                isPlayerInRange = false;
+                dialogueMark.SetActive(false);
+            }
         }
     }
 
@@ -82,7 +89,7 @@ public class Dialogue : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player")) 
         {
-            isPlaterInRange = true;
+            isPlayerInRange = true;
             script = collision.GetComponent<Movement>();//cargamos la referencia del movimiento al script para impedir que el jugador se mueva.
 
             if(!isInteractable)
@@ -99,7 +106,7 @@ public class Dialogue : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            isPlaterInRange = false;
+            isPlayerInRange = false;
             dialogueMark.SetActive(false);
         }
     }

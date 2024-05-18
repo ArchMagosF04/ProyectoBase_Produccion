@@ -26,6 +26,11 @@ public class LevelMenu : MonoBehaviour
         }
     }
 
+    public void OpenScene(string sceneName)
+    {
+        StartCoroutine(LoadSceneAsynchronously(sceneName));
+    }
+
     public void OpenLevel(int levelId)
     {
         string levelName="Level "+ levelId;
