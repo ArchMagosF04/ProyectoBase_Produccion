@@ -12,12 +12,10 @@ GameObject:
   - component: {fileID: 7876004778471004334}
   - component: {fileID: 5818703432198805187}
   - component: {fileID: 3328792535078968364}
+  - component: {fileID: 6847066137863962609}
   - component: {fileID: 3978920250157747625}
   - component: {fileID: 6572516924814592484}
-  - component: {fileID: 1142066140072432845}
   - component: {fileID: 1509008146845185977}
-  - component: {fileID: 6847066137863962609}
-  - component: {fileID: 1767271178608949776}
   - component: {fileID: 4589753635964331837}
   - component: {fileID: 6798311131601534935}
   m_Layer: 0
@@ -159,6 +157,27 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &6847066137863962609
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2684815127174619242}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f24bf7af7e46972469f04777bc282389, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &3978920250157747625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,30 +207,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5cb975405b74a64d9fa62806770a0b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1142066140072432845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2684815127174619242}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6c18d3aaacc74f4aa895b7f99c563d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  KickPoint: {fileID: 0}
-  KickSprite: {fileID: 0}
-  PunchPoint: {fileID: 0}
-  PunchSprite: {fileID: 0}
-  KickRange: 1
-  PunchRange: 0.68
-  Damage: 20
-  EnemyLayers:
-    serializedVersion: 2
-    m_Bits: 64
-  AttackRate: 2
-  NextAttackTime: 0
 --- !u!114 &1509008146845185977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,44 +221,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   healthSlider: {fileID: 0}
---- !u!95 &6847066137863962609
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2684815127174619242}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f24bf7af7e46972469f04777bc282389, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1767271178608949776
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2684815127174619242}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9cdd660db2fb0a4c8a3a122e2da8613, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 6847066137863962609}
-  kickSpeed: 0.7
-  punchSpeed: 0.2
-  punchDamage: 10
-  kickDamage: 25
 --- !u!114 &4589753635964331837
 MonoBehaviour:
   m_ObjectHideFlags: 0

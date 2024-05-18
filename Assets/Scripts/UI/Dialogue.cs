@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Dialogue : MonoBehaviour
 {
+    [SerializeField] private bool isInteractable;
+
     [SerializeField] private GameObject dialogueMark;
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TMP_Text dialogueText;
@@ -19,19 +21,24 @@ public class Dialogue : MonoBehaviour
     {
         if (isPlaterInRange && Input.GetKeyDown(KeyCode.E))
         {
-            if (!didDialogueStart)
-            {
-                StartDialogue();
-            }
-            else if (dialogueText.text == dialogueLines[lineIndex])//pasa a la siguiente linea de dialogo
-            {
-                NextDialogueLine();
-            }
-            else // si apreto fire 1 mientras se esta mostrando las lineas de texto, muestro todas las que faltan
-            {
-                StopAllCoroutines();
-                dialogueText.text = dialogueLines[lineIndex];
-            }
+            DialogueStructure();
+        }
+    }
+
+    private void DialogueStructure()
+    {
+        if (!didDialogueStart)
+        {
+            StartDialogue();
+        }
+        else if (dialogueText.text == dialogueLines[lineIndex])//pasa a la siguiente linea de dialogo
+        {
+            NextDialogueLine();
+        }
+        else // si apreto fire 1 mientras se esta mostrando las lineas de texto, muestro todas las que faltan
+        {
+            StopAllCoroutines();
+            dialogueText.text = dialogueLines[lineIndex];
         }
     }
 
@@ -76,8 +83,15 @@ public class Dialogue : MonoBehaviour
         if (collision.gameObject.CompareTag("Player")) 
         {
             isPlaterInRange = true;
-            dialogueMark.SetActive(true);
             script = collision.GetComponent<Movement>();//cargamos la referencia del movimiento al script para impedir que el jugador se mueva.
+
+            if(!isInteractable)
+            {
+                StartDialogue();
+            }else
+            {
+                dialogueMark.SetActive(true);
+            }
         }
     }
 

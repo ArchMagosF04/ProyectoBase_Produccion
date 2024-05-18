@@ -30,8 +30,8 @@ public class PlayerHealth : MonoBehaviour
             health=0f;
             healthSlider.value = health;
 
-            Destroy(gameObject);
-            GameManager.Instance.Death();
+            ScreenManager.Instance.GameOverScreen();
+            gameObject.SetActive(false);
         }
     }
 

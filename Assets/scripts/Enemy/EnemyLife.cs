@@ -9,17 +9,13 @@ public class EnemyLife : MonoBehaviour
 
     private Animator animator;
 
+    [SerializeField] private GameObject corpse;
+
     // Start is called before the first frame update
     void Start()
     {
         health=maxHealth;
         animator = this.GetComponent<Animator>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void TakeDamage(float damage)
@@ -31,6 +27,8 @@ public class EnemyLife : MonoBehaviour
 
         if(health <= 0)
         {
+            GameObject enemyCorpese = Instantiate(corpse);
+            enemyCorpese.transform.position=transform.position;
             Destroy(gameObject);
         }
     }

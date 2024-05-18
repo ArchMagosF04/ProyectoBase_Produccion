@@ -34,6 +34,11 @@ public class Movement : MonoBehaviour
                 StartCoroutine(Dash());
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            ScreenManager.Instance.PauseMenuButton();
+        }
     }
 
     private void FixedUpdate()
