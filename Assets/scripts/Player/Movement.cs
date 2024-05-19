@@ -35,7 +35,7 @@ public class Movement : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && ScreenManager.Instance.isLevelComplete==false)
         {
             ScreenManager.Instance.PauseMenuButton();
         }

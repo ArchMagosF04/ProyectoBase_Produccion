@@ -29,6 +29,7 @@ public class EnemyLife : MonoBehaviour
         {
             GameObject enemyCorpese = Instantiate(corpse);
             enemyCorpese.transform.position=transform.position;
+            GameManager.Instance.enemiesKilled++;
             Destroy(gameObject);
         }
     }

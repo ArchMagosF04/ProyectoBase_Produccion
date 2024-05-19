@@ -10,6 +10,8 @@ public class ScreenManager : MonoBehaviour
     public static ScreenManager Instance { get; private set; }
 
     [SerializeField] private GameObject pauseMenu;
+    [SerializeField] private GameObject comboList;
+    [SerializeField] private GameObject optionsMenu;
     [SerializeField] private GameObject deathMenu;
     [SerializeField] private GameObject levelCompleteMenu;
 
@@ -17,6 +19,7 @@ public class ScreenManager : MonoBehaviour
     [SerializeField] private Slider loadingBar;
 
     [SerializeField] private int nextSceneNumber;
+    public bool isLevelComplete;
 
     private bool isPaused=false;
 
@@ -43,15 +46,21 @@ public class ScreenManager : MonoBehaviour
     private void Start()
     {
         pauseMenu.SetActive(false);
+        comboList.SetActive(false);
+        optionsMenu.SetActive(false);
         deathMenu.SetActive(false);
         levelCompleteMenu.SetActive(false);
+        isLevelComplete=false;
     }
 
     public void PauseMenuButton()
     {
         if (isPaused)
         {
+            comboList.SetActive(false);
+            optionsMenu.SetActive(false);
             Resume();
+
         }
         else
         {
@@ -96,6 +105,7 @@ public class ScreenManager : MonoBehaviour
     {
         Time.timeScale = 0;
         levelCompleteMenu.SetActive(true);
+        isLevelComplete = true;
     }
 
     public void NextLevel()
