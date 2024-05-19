@@ -2,8 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum EnemyState
+{
+    idle,
+    moving,
+    attack
+}
+
 public class EnemyMove : MonoBehaviour
 {
+    public EnemyState currentState;
+
     [SerializeField] private float speed = 0.5f;
 
     private Animator animator; 
