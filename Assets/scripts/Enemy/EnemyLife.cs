@@ -11,6 +11,14 @@ public class EnemyLife : MonoBehaviour
 
     [SerializeField] private GameObject corpse;
 
+    AudioManager audioManager;
+
+
+    private void Awake()
+    {
+        audioManager=GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +29,7 @@ public class EnemyLife : MonoBehaviour
     public void TakeDamage(float damage)
     {
         animator.SetTrigger("GotHit");
+        audioManager.PlaySFX(audioManager.crowHit);
         health-=damage;
 
         Debug.Log("Enemy Health: " + health);

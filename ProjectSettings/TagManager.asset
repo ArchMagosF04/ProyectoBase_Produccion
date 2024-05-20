@@ -6,6 +6,7 @@ TagManager:
   tags:
   - EnemyPunch
   - Enemy
+  - Audio
   layers:
   - Default
   - TransparentFX

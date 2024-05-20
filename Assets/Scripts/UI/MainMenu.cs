@@ -10,6 +10,7 @@ public class MainMenu : MonoBehaviour
     public Slider loadingBar;
     [SerializeField] private Button codexButton;
 
+    AudioManager audioManager;
 
     private void Awake()
     {
@@ -20,6 +21,8 @@ public class MainMenu : MonoBehaviour
         {
             codexButton.interactable=true;
         }
+
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     public void Exit()
@@ -49,6 +52,11 @@ public class MainMenu : MonoBehaviour
     {
         string levelName = "Codex";
         StartCoroutine (LoadSceneAsynchronously(levelName));
+    }
+
+    public void ButtonSFX()
+    {
+        audioManager.PlaySFX(audioManager.select);
     }
 
     IEnumerator LoadSceneAsynchronously(string sceneName)

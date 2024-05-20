@@ -23,6 +23,8 @@ public class ScreenManager : MonoBehaviour
 
     private bool isPaused=false;
 
+    AudioManager audioManager;
+
     private void Awake()
     {
         if (Instance == null)
@@ -33,6 +35,8 @@ public class ScreenManager : MonoBehaviour
         {
             DestroyImmediate(gameObject);
         }
+
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     private void OnDestroy()
@@ -114,6 +118,11 @@ public class ScreenManager : MonoBehaviour
         string levelName = "Level " + nextSceneNumber;
         StartCoroutine(LoadSceneAsynchronously(levelName));
         Debug.Log("Next level " + nextSceneNumber);
+    }
+
+    public void ButtonSFX()
+    {
+        audioManager.PlaySFX(audioManager.select);
     }
 
     IEnumerator LoadSceneAsynchronously(string sceneName)

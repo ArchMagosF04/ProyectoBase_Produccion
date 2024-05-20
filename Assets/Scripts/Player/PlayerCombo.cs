@@ -18,7 +18,14 @@ public class PlayerCombo : MonoBehaviour
     private string punchName = "Punch";
     private string kickName = "Kick";
 
-    [SerializeField] private PlayerDamage playerDamage; 
+    [SerializeField] private PlayerDamage playerDamage;
+
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -38,11 +45,13 @@ public class PlayerCombo : MonoBehaviour
         {
             isAttacking = true;
             animator.SetTrigger(punchName+combo);
+            audioManager.PlaySFX(audioManager.punch);
         }
         if(Input.GetMouseButtonDown(1) && !isAttacking && currentState!=PlayerState.grab && currentState != PlayerState.interact)
         {
             isAttacking = true;
             animator.SetTrigger(kickName+combo);
+            audioManager.PlaySFX(audioManager.kick);
         }
     }
 

@@ -10,6 +10,13 @@ public class PlayerHealth : MonoBehaviour
     private float health;
     [SerializeField] private Slider healthSlider;
 
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     void Start()
     {
         health = maxHealth;
@@ -19,6 +26,7 @@ public class PlayerHealth : MonoBehaviour
     public void UpdateHealth(float change)
     {
         health += change;
+        audioManager.PlaySFX(audioManager.playerHit);
 
         Debug.Log("Player Health: " + health);
 
