@@ -1,35 +1,43 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class EnemyLife : MonoBehaviour
 {
+    public UnityEvent OnTakingDamage=new UnityEvent();
+    public UnityEvent OnDeath=new UnityEvent();
+
+    [SerializeField] private bool noGameManager;
+
     [SerializeField] private float maxHealth=100;
     private float health;
 
-    private Animator animator;
+    //private Animator animator;
 
     [SerializeField] private GameObject corpse;
 
-    AudioManager audioManager;
+    //AudioManager audioManager;
 
 
     private void Awake()
     {
-        audioManager=GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+        //audioManager=GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     // Start is called before the first frame update
     void Start()
     {
         health=maxHealth;
-        animator = this.GetComponent<Animator>();
+        //animator = this.GetComponent<Animator>();
     }
 
     public void TakeDamage(float damage)
     {
-        animator.SetTrigger("GotHit");
-        audioManager.PlaySFX(audioManager.crowHit);
+        //animator.SetTrigger("GotHit");
+        //audioManager.PlaySFX(audioManager.crowHit);
+        OnTakingDamage?.Invoke();
+
         health-=damage;
 
         Debug.Log("Enemy Health: " + health);
@@ -38,7 +46,11 @@ public class EnemyLife : MonoBehaviour
         {
             GameObject enemyCorpese = Instantiate(corpse);
             enemyCorpese.transform.position=transform.position;
-            GameManager.Instance.enemiesKilled++;
+            enemyCorpese.transform.rotation=transform.rotation;
+            if (!noGameManager)
+            {
+                GameManager.Instance.enemiesKilled++;
+            }
             Destroy(gameObject);
         }
     }

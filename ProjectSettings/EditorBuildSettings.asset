@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial.unity
     guid: 83dd07e173e902241908c65bc6f04f8e
   - enabled: 1
-    path: Assets/Scenes/Test Chamber.unity
+    path: Assets/Scenes/Level 0.unity
     guid: 71e2467d026e212418407175bc86818e
   - enabled: 1
     path: Assets/Scenes/Codex.unity

@@ -101,6 +101,7 @@ public class EnemyMove : MonoBehaviour
     public void ResetCooldown()
     {
         onCooldown = true;
+        attackTimer = 1f;
     }
 
 }
