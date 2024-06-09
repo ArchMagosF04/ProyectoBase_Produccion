@@ -19,6 +19,14 @@ public class PlayerDamage : MonoBehaviour
             EnemyLife enemyLife = collision.gameObject.GetComponent<EnemyLife>();
 
             enemyLife.TakeDamage(damage);
+            return;
+        }
+        if(collision.gameObject.tag=="Tyson")
+        {
+            TysonHealth tysonHealth = collision.gameObject.GetComponent<TysonHealth>();
+
+            tysonHealth.TakeDamage(damage);
+            return;
         }
     }
 }

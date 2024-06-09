@@ -12,17 +12,42 @@ public class MainMenu : MonoBehaviour
 
     AudioManager audioManager;
 
+    [SerializeField] private GameObject cheatButtons;
+    private bool areCheatsEnabled;
+
     private void Awake()
     {
         loadingScreen.SetActive(false);
         codexButton.interactable = false;
 
-        if(PlayerPrefs.GetInt("UnlockedLevel")  == 2 )
+        if(PlayerPrefs.GetInt("UnlockedLevel")  >= 2 )
         {
             codexButton.interactable=true;
         }
 
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
+    private void Update()
+    {
+        if(Input.GetKey(KeyCode.LeftControl))
+        {
+            if(Input.GetKeyDown(KeyCode.D))
+            {
+                if (!areCheatsEnabled)
+                {
+                    cheatButtons.SetActive(true);
+                    areCheatsEnabled = true;
+                    //cheatButtons.transform.position = new Vector3(cheatButtons.transform.position.x,cheatButtons.transform.position.y + 180f,cheatButtons.transform.position.z);
+                }
+                else
+                {
+                    cheatButtons.SetActive(false);
+                    areCheatsEnabled = false;
+                    //cheatButtons.transform.position = new Vector3(cheatButtons.transform.position.x, cheatButtons.transform.position.y - 180f, cheatButtons.transform.position.z);
+                }
+            } 
+        }
     }
 
     public void Exit()
@@ -35,6 +60,13 @@ public class MainMenu : MonoBehaviour
     {
         PlayerPrefs.DeleteKey("UnlockedLevel");
         PlayerPrefs.DeleteKey("ReachedIndex");
+    }
+
+    public void GainProgress(int levelIndex)
+    {
+        PlayerPrefs.SetInt("ReachedIndex", levelIndex + 1);
+        PlayerPrefs.SetInt("UnlockedLevel", levelIndex + 1);
+        PlayerPrefs.Save();
     }
 
     public void Restart()
