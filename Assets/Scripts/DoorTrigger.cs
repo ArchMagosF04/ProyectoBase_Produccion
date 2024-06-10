@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class DoorTrigger : MonoBehaviour
 {
@@ -8,23 +9,36 @@ public class DoorTrigger : MonoBehaviour
 
     private bool wasTriggered;
 
-    public int enemiesToKill;
+    [SerializeField] private GameObject doors;
+
+    [SerializeField] private int enemiesToKill;
+
+    private int enemiesKilled;
+
+    public UnityEvent OnTrigger = new UnityEvent();
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player" && wasActivated == false)
         {
-            GameManager.Instance.CloseDoors();
+            doors.SetActive(true);
+            OnTrigger?.Invoke();
             wasActivated = true;
         }
     }
 
+    public void OnEnemyKill()
+    {
+        enemiesKilled++;
+    }
+
     private void Update()
     {
-        if(GameManager.Instance.enemiesKilled==enemiesToKill && wasTriggered==false) 
+        if(enemiesKilled>=enemiesToKill && wasTriggered==false) 
         {
-            GameManager.Instance.OpenDoors();
+            doors.SetActive(false);
             wasTriggered = true;
+            gameObject.SetActive(false);
         }
     }
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class TysonHealth : MonoBehaviour
@@ -13,6 +14,8 @@ public class TysonHealth : MonoBehaviour
     public bool isInvulnerable;
 
     private Animator animator;
+
+    public UnityEvent OnDeath = new UnityEvent();
 
     // Start is called before the first frame update
     void Start()
@@ -43,12 +46,14 @@ public class TysonHealth : MonoBehaviour
         {
             health = 0;
             healthSlider.value = health;
-            Die(); 
+            Die();
+            isInvulnerable = true;
         }
     }
 
     private void Die()
     {
+        OnDeath?.Invoke();
         animator.SetBool("isDeafeted", true);
     }
 

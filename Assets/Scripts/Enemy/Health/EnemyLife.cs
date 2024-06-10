@@ -8,8 +8,6 @@ public class EnemyLife : MonoBehaviour
     public UnityEvent OnTakingDamage=new UnityEvent();
     public UnityEvent OnDeath=new UnityEvent();
 
-    [SerializeField] private bool noGameManager;
-
     [SerializeField] private float maxHealth=100;
     private float health;
 
@@ -47,10 +45,8 @@ public class EnemyLife : MonoBehaviour
             GameObject enemyCorpese = Instantiate(corpse);
             enemyCorpese.transform.position=transform.position;
             enemyCorpese.transform.rotation=transform.rotation;
-            if (!noGameManager)
-            {
-                GameManager.Instance.enemiesKilled++;
-            }
+
+            OnDeath?.Invoke();
             Destroy(gameObject);
         }
     }

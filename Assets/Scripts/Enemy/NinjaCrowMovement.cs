@@ -32,6 +32,8 @@ public class NinjaCrowMovement : MonoBehaviour
 
     private float distanceFromPlayer;
 
+    private bool hasDetectedPlayer = false;
+
     [SerializeField] private float DashSpeed = -40f;
     [SerializeField] private float DodgeDuration = 0.5f;
     [SerializeField] private float DiveDuration = 0.5f;
@@ -39,6 +41,7 @@ public class NinjaCrowMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        target = GameObject.FindGameObjectWithTag("Player").transform;
         rigidBody = this.GetComponent<Rigidbody2D>();
         animator = this.GetComponent<Animator>();
     }
@@ -110,6 +113,11 @@ public class NinjaCrowMovement : MonoBehaviour
         if(distanceFromPlayer > attackRange && distanceFromPlayer <=lineOfSight && currentState!=NinjaState.attack && currentState!=NinjaState.dodge)
         {
             currentState = NinjaState.moving;
+            if (!hasDetectedPlayer)
+            {
+                lineOfSight += 50f;
+                hasDetectedPlayer = true;
+            }
         }
     }
 

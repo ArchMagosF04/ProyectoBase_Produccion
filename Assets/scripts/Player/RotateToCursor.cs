@@ -19,7 +19,10 @@ public class RotateToCursor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rotaToCamera();
+        if(ScreenManager.Instance.isDialogueActive==false && ScreenManager.Instance.isLevelComplete==false)
+        {
+            rotaToCamera();
+        }
     }
 
     void rotaToCamera() 

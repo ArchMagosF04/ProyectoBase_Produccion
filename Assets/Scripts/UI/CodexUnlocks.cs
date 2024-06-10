@@ -23,12 +23,12 @@ public class CodexUnlocks : MonoBehaviour
             buttons[0].interactable = true;
             buttons[1].interactable = true;
             buttons[2].interactable = true;
-            //buttons[8].interactable = true;
+            buttons[8].interactable = true;
 
             texts[0].enabled = true;
             texts[1].enabled = true;
             texts[2].enabled = true;
-            //texts[8].enabled = true;
+            texts[8].enabled = true;
         }
         if (unlockedLevel>=3)
         {

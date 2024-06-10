@@ -52,6 +52,7 @@ public class DialogueManager : MonoBehaviour
     public void StartDialogue(Dialogues dialogue)
     {
         animator.SetBool("IsOpen", true);
+        ScreenManager.Instance.isDialogueActive = true;
 
         Time.timeScale = 0;
 
@@ -103,6 +104,7 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
+        ScreenManager.Instance.isDialogueActive = false;
         animator.SetBool("IsOpen", false);
         Time.timeScale = 1;
     }

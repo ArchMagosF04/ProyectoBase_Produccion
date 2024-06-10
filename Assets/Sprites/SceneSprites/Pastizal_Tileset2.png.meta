@@ -1,0 +1,1038 @@
+fileFormatVersion: 2
+guid: ce89c0ad702242e4c83f09f4f0d85ab5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 108
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 537
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676bb4e1dc7608e48abfefe06589e79e
+      internalID: 801102181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 537
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91018e9c59cd7c49b217346ee52900c
+      internalID: 841109313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 537
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7d1d1864c804e4ab2781461dfc04c7
+      internalID: 1675698803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_3
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 539
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e9e6bf40d5ff24d9f30cebeba28ebb
+      internalID: 1534908964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_4
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 539
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ef5795d339c20408d7223e9e51cc90
+      internalID: -765800066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_5
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 539
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408f0e4a4d4650f4797497c589d56109
+      internalID: 2035358867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 429
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82485b81406ee146978487f39b36665
+      internalID: -1800674130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_8
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 429
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28abd46dd98006c43b7fe6055c335f43
+      internalID: 694832269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_9
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 429
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beedc216f02d2db4cab5587cc81338a2
+      internalID: -1124505264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_10
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 431
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac3844c8aa4d7a4b84acc69bf8d5bb2
+      internalID: -1387239238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_11
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 431
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f11c9fc96e13840918c0cedee9b95a
+      internalID: -2079931234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_12
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 431
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f934a73a328e6fb42879cf330c7f7ce2
+      internalID: -1146849014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 321
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec28486db1e4a2848b86653ce86d3d74
+      internalID: -1209054989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_15
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 321
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc61b74a68494194aaf39cb4aa4f8029
+      internalID: 63419449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_16
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 321
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8939ca43e9d8d94695c9f9e2c784048
+      internalID: -585715075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_17
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 323
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5050085390399454b96132a70dcf200d
+      internalID: 2095120455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_18
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 323
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed2b3f8c5adb5e4f880bf5570179236
+      internalID: -796165725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_19
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 323
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f934562799d793d4bab815ccc64f229e
+      internalID: -280926215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_21
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 323
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e6f4e26421031449c58f798e6de6a3
+      internalID: 326981834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 216
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628380378b404d249b8b4fe7f1d2fd79
+      internalID: 999516196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_23
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 216
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7724166f26353914792e527470e89145
+      internalID: 1132756701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_24
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 216
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f79d3e49572414aa8aebe579e520cf
+      internalID: -1421543009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_25
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 215
+        width: 108
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0580044aade3c5b4e88c33c72d16c90b
+      internalID: 1526727310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_26
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 215
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dcddec45d322e499d02e0d1497ebb8
+      internalID: -281527213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_27
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 206
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb937e9126fa504a8b6e69ce097b628
+      internalID: -1568420456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_29
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 215
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e196da2fc84b1cc4484a1063db02c91e
+      internalID: -663203853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 108
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdefbf774228c04bb01f7b3d69c431d
+      internalID: 1517753505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_31
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 108
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29eacab9381b8b440b9854edf49e52b7
+      internalID: -1877006482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_32
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 108
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8e84e51c3ad0d4095aa878c26ae6cb
+      internalID: -448376311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_33
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 107
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b03b18ac65c88349b6c874bad6ab994
+      internalID: 1227411476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_34
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 107
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a5423a9f36cc94c873591aad816c45
+      internalID: -1215658564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_35
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 107
+        width: 108
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0572602390ba4be468dedcd0df96f142
+      internalID: -468159718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_36
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 107
+        width: 73
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117373524d2465b44a770b065301cd89
+      internalID: -675607512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_37
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 107
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9078abeeac2fb9c49a607b102fe1cf25
+      internalID: -308394080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e314e0ea0934f49bfe00fed1415d6d
+      internalID: -1012298757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_13
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 0
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da822e77b677dbc4c9e0a0b0ab3d0e0a
+      internalID: -1856817068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_20
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 0
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39e4a6afb067da46a7e1b2bf59e3919
+      internalID: 120458328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_28
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 0
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3322f70260950d04baedea9978f28e8c
+      internalID: 671469305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_38
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 0
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02d128b9bfc2a744a4968f0de5a53e4
+      internalID: 1658308489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_39
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 0
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5891076b12c9ce48abef4ece012ffc9
+      internalID: -236652105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_40
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 0
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da717b3e64b5e945ba09162c9bbc40e
+      internalID: -1559581901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pastizal_Tileset2_41
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 0
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711759f0dacd1f741870f7705ceac03f
+      internalID: -1036384826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Pastizal_Tileset2_0: 801102181
+      Pastizal_Tileset2_1: 841109313
+      Pastizal_Tileset2_10: -1387239238
+      Pastizal_Tileset2_11: -2079931234
+      Pastizal_Tileset2_12: -1146849014
+      Pastizal_Tileset2_13: -1856817068
+      Pastizal_Tileset2_14: -1209054989
+      Pastizal_Tileset2_15: 63419449
+      Pastizal_Tileset2_16: -585715075
+      Pastizal_Tileset2_17: 2095120455
+      Pastizal_Tileset2_18: -796165725
+      Pastizal_Tileset2_19: -280926215
+      Pastizal_Tileset2_2: 1675698803
+      Pastizal_Tileset2_20: 120458328
+      Pastizal_Tileset2_21: 326981834
+      Pastizal_Tileset2_22: 999516196
+      Pastizal_Tileset2_23: 1132756701
+      Pastizal_Tileset2_24: -1421543009
+      Pastizal_Tileset2_25: 1526727310
+      Pastizal_Tileset2_26: -281527213
+      Pastizal_Tileset2_27: -1568420456
+      Pastizal_Tileset2_28: 671469305
+      Pastizal_Tileset2_29: -663203853
+      Pastizal_Tileset2_3: 1534908964
+      Pastizal_Tileset2_30: 1517753505
+      Pastizal_Tileset2_31: -1877006482
+      Pastizal_Tileset2_32: -448376311
+      Pastizal_Tileset2_33: 1227411476
+      Pastizal_Tileset2_34: -1215658564
+      Pastizal_Tileset2_35: -468159718
+      Pastizal_Tileset2_36: -675607512
+      Pastizal_Tileset2_37: -308394080
+      Pastizal_Tileset2_38: 1658308489
+      Pastizal_Tileset2_39: -236652105
+      Pastizal_Tileset2_4: -765800066
+      Pastizal_Tileset2_40: -1559581901
+      Pastizal_Tileset2_41: -1036384826
+      Pastizal_Tileset2_5: 2035358867
+      Pastizal_Tileset2_6: -1012298757
+      Pastizal_Tileset2_7: -1800674130
+      Pastizal_Tileset2_8: 694832269
+      Pastizal_Tileset2_9: -1124505264
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

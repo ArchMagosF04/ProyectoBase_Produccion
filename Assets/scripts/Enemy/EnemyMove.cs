@@ -27,10 +27,12 @@ public class EnemyMove : MonoBehaviour
     private float attackTimer=1f;
 
     private float distanceFromPlayer;
+    private bool hasDetectedPlayer = false;
 
     // Start is called before the first frame update
     void Start()
     {
+        target = GameObject.FindGameObjectWithTag("Player").transform;
         rigidBody = this.GetComponent<Rigidbody2D>();
         animator = this.GetComponent<Animator>();
     }
@@ -38,7 +40,7 @@ public class EnemyMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 direction= target.position - transform.position;
+        Vector3 direction = target.position - transform.position;
         float angle=Mathf.Atan2(direction.y,direction.x) * Mathf.Rad2Deg;
         rigidBody.rotation = angle;
         direction.Normalize();
@@ -66,6 +68,11 @@ public class EnemyMove : MonoBehaviour
         {
             animator.SetBool("isMoving", true);
             MoveEnemy(movement);
+            if (!hasDetectedPlayer)
+            {
+                lineOfSight += 50f;
+                hasDetectedPlayer = true;
+            }
         }
         else
         {

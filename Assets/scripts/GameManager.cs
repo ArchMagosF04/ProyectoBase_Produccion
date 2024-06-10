@@ -7,9 +7,9 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
-    public GameObject doors;
+    //public GameObject doors;
 
-    public int enemiesKilled;
+    //public int enemiesKilled;
 
     private void Awake()
     {
@@ -31,18 +31,18 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-        doors.gameObject.SetActive(false);
-    }
+    //private void Start()
+    //{
+    //    doors.gameObject.SetActive(false);
+    //}
 
-    public void CloseDoors()
-    {
-        doors.gameObject.SetActive(true);
-    }
+    //public void CloseDoors()
+    //{
+    //    doors.gameObject.SetActive(true);
+    //}
 
-    public void OpenDoors()
-    {
-        doors.gameObject.SetActive(false);
-    }
+    //public void OpenDoors()
+    //{
+    //    doors.gameObject.SetActive(false);
+    //}
 }

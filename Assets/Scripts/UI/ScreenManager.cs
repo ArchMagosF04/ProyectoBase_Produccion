@@ -23,6 +23,8 @@ public class ScreenManager : MonoBehaviour
 
     private bool isPaused=false;
 
+    public bool isDialogueActive=false;
+
     AudioManager audioManager;
 
     private void Awake()
@@ -79,6 +81,11 @@ public class ScreenManager : MonoBehaviour
         isPaused = true;
     }
 
+    public void SetTimeScale(float timeScale)
+    {
+        Time.timeScale = timeScale;
+    }
+
     public void Resume()
     {
         pauseMenu.SetActive(false);
@@ -102,6 +109,7 @@ public class ScreenManager : MonoBehaviour
 
     public void GameOverScreen()
     {
+        Time.timeScale = 0;
         deathMenu.SetActive(true);
     }
 
