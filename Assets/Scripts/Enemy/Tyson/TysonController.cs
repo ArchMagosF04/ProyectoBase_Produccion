@@ -49,11 +49,19 @@ public class TysonController : MonoBehaviour
             animator.SetBool("isMoving", true);
             if(!hasDetectedPlayer)
             {
-                lineOfSight += 50f;
+                //lineOfSight += 50f;
                 hasDetectedPlayer = true;
             }
             
         }
+    }
+
+    public void StartBoss()
+    {
+        lineOfSight = 75f;
+        spinRange = 9f;
+        spinCooldown = true;
+        spinAttackTimer = spinAttackTimerRecord;
     }
 
 

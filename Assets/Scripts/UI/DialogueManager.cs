@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -14,6 +15,9 @@ public class DialogueManager : MonoBehaviour
 
     private Queue<string> speakerName;
     private Queue<string> sentences;
+
+    public bool hasEndEvent;
+    public UnityEvent OnEndDialogue = new UnityEvent();
 
     private void Awake()
     {
@@ -107,5 +111,11 @@ public class DialogueManager : MonoBehaviour
         ScreenManager.Instance.isDialogueActive = false;
         animator.SetBool("IsOpen", false);
         Time.timeScale = 1;
+
+        if(hasEndEvent)
+        {
+            OnEndDialogue?.Invoke();
+            hasEndEvent = false;
+        }
     }
 }

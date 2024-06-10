@@ -8,8 +8,15 @@ public class DialogueTrigger : MonoBehaviour
 
     private bool wasActivated=false;
 
+    [SerializeField] private bool hasEndEvent = false;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if(hasEndEvent)
+        {
+            DialogueManager.Instance.hasEndEvent = true;
+        }
+
         if(collision.gameObject.tag == "Player" &&wasActivated==false)
         {
             TriggerDialogue();

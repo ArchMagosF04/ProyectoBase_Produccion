@@ -14,6 +14,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip mainMenu;
     public AudioClip tutorial;
     public AudioClip level1;
+    public AudioClip level2;
+    public AudioClip tysonBoss;
     private AudioClip selectedAudio;
 
     [SerializeField] private int musicIndex;
@@ -32,22 +34,31 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        if (musicIndex == 0)
+        switch(musicIndex)
         {
-            selectedAudio = mainMenu;
-        }
-        else if(musicIndex == 1)
-        {
-            selectedAudio=tutorial;
-        }
-        else if(musicIndex == 2)
-        {
-            selectedAudio=level1;
+            case 0:
+                selectedAudio = mainMenu;
+                break;
+            case 1:
+                selectedAudio = tutorial;
+                break;
+            case 2:
+                selectedAudio = level1;
+                break;
+            case 3:
+                selectedAudio = level2;
+                break;
         }
 
         LoadVolume();
 
         musicSource.clip=selectedAudio;
+        musicSource.Play();
+    }
+
+    public void PlayBoss1Music()
+    {
+        musicSource.clip = tysonBoss;
         musicSource.Play();
     }
 
@@ -83,5 +94,25 @@ public class AudioManager : MonoBehaviour
         masterSlider.value = PlayerPrefs.GetFloat("masterVolume",1f);
         musicSlider.value = PlayerPrefs.GetFloat("musicVolume",1f);
         sFXSlider.value = PlayerPrefs.GetFloat("sFXVolume",1f);
+    }
+
+    public void FadeOutMusic()
+    {
+        StartCoroutine(FadeOut(musicSource, 1.5f));
+    }
+
+    public static IEnumerator FadeOut(AudioSource audioSource, float FadeTime)
+    {
+        float startVolume = audioSource.volume;
+
+        while (audioSource.volume > 0)
+        {
+            audioSource.volume -= startVolume * Time.deltaTime / FadeTime;
+
+            yield return null;
+        }
+
+        audioSource.Stop();
+        audioSource.volume = startVolume;
     }
 }
