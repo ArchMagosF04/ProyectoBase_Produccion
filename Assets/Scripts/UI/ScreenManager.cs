@@ -14,6 +14,7 @@ public class ScreenManager : MonoBehaviour
     [SerializeField] private GameObject optionsMenu;
     [SerializeField] private GameObject deathMenu;
     [SerializeField] private GameObject levelCompleteMenu;
+    public GameObject newDiaryEntry;
 
     [SerializeField] private GameObject loadingScreen;
     [SerializeField] private Slider loadingBar;
@@ -21,7 +22,7 @@ public class ScreenManager : MonoBehaviour
     [SerializeField] private int nextSceneNumber;
     public bool isLevelComplete;
 
-    private bool isPaused=false;
+    public bool isPaused=false;
 
     public bool isDialogueActive=false;
 
@@ -57,6 +58,7 @@ public class ScreenManager : MonoBehaviour
         deathMenu.SetActive(false);
         levelCompleteMenu.SetActive(false);
         isLevelComplete=false;
+        newDiaryEntry.SetActive(false);
     }
 
     public void PauseMenuButton()
@@ -126,6 +128,13 @@ public class ScreenManager : MonoBehaviour
         string levelName = "Level " + nextSceneNumber;
         StartCoroutine(LoadSceneAsynchronously(levelName));
         Debug.Log("Next level " + nextSceneNumber);
+    }
+
+    public void GoToCodex()
+    {
+        Time.timeScale = 1;
+        string levelName = "Codex";
+        StartCoroutine(LoadSceneAsynchronously(levelName));
     }
 
     public void ButtonSFX()

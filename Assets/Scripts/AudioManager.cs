@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class AudioManager : MonoBehaviour
@@ -32,6 +34,8 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private Slider musicSlider;
     [SerializeField] private Slider sFXSlider;
 
+    private bool wasSliderChanged=false;
+
     private void Start()
     {
         switch(musicIndex)
@@ -56,6 +60,18 @@ public class AudioManager : MonoBehaviour
         musicSource.Play();
     }
 
+    private void Update()
+    {
+        if (Input.GetMouseButtonUp(0))
+        {
+            if(wasSliderChanged)
+            {
+                PlaySFX(select);
+                wasSliderChanged = false;
+            }
+        }
+    }
+
     public void PlayBoss1Music()
     {
         musicSource.clip = tysonBoss;
@@ -73,6 +89,7 @@ public class AudioManager : MonoBehaviour
         float volume1 = masterSlider.value;
         myMixer.SetFloat("master", Mathf.Log10(volume1)*20);
         PlayerPrefs.SetFloat("masterVolume", volume1);
+        wasSliderChanged=true;
     }
 
     public void SetMusicVolume()
@@ -80,6 +97,7 @@ public class AudioManager : MonoBehaviour
         float volume2 = musicSlider.value;
         myMixer.SetFloat("music", Mathf.Log10(volume2)*20);
         PlayerPrefs.SetFloat("musicVolume", volume2);
+        wasSliderChanged=true;
     }
 
     public void SetSFXVolume()
@@ -87,6 +105,7 @@ public class AudioManager : MonoBehaviour
         float volume3 = sFXSlider.value;
         myMixer.SetFloat("sFX", Mathf.Log10(volume3)*20);
         PlayerPrefs.SetFloat("sFXVolume", volume3);
+        wasSliderChanged=true;
     }
 
     private void LoadVolume()
