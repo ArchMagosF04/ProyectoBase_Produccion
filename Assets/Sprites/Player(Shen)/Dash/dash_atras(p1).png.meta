@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,7 +95,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: dash_atras(p1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 146
+        height: 201
+      alignment: 9
+      pivot: {x: 0.5107388, y: 0.5156006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88647daee2ea8fd4b8a6177fa1bda36f
+      internalID: 2000088667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dash_atras(p1)_1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 0
+        width: 173
+        height: 201
+      alignment: 9
+      pivot: {x: 0.41086045, y: 0.51484144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6036230981bd244b09272f84db4c4b
+      internalID: -1187597292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dash_atras(p1)_2
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 0
+        width: 213
+        height: 201
+      alignment: 9
+      pivot: {x: 0.32315335, y: 0.5057369}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defbb48c66e5b274d950dc536bef9c90
+      internalID: 762061200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +169,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dash_atras(p1)_0: 2000088667
+      dash_atras(p1)_1: -1187597292
+      dash_atras(p1)_2: 762061200
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

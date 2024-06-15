@@ -12,9 +12,14 @@ public class PlayerHealth : MonoBehaviour
 
     AudioManager audioManager;
 
+    private Animator animator;
+
+    public bool isInvulnerable;
+
     private void Awake()
     {
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+        animator = GetComponent<Animator>();
     }
 
     void Start()
@@ -23,8 +28,22 @@ public class PlayerHealth : MonoBehaviour
         healthSlider.maxValue = maxHealth;
     }
 
+    public void GainHealth(float change)
+    {
+        health += change;
+        if (health > maxHealth)
+        {
+            health = maxHealth;
+        }
+    }
+
     public void UpdateHealth(float change)
     {
+        if (isInvulnerable)
+        {
+            return;
+        }
+        animator.SetTrigger("GotHurt");
         health += change;
         audioManager.PlaySFX(audioManager.playerHit);
 

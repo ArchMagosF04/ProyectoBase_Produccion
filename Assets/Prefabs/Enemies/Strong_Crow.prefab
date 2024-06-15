@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5214112725091282987}
   - component: {fileID: 1661956207750865426}
   - component: {fileID: 4230081297160573522}
-  - component: {fileID: 3774500942065169015}
+  - component: {fileID: 6318899860714341689}
   - component: {fileID: 5234032181955447501}
   m_Layer: 0
   m_Name: Strong_Crow
@@ -186,7 +186,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3774500942065169015
+--- !u!114 &6318899860714341689
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -195,14 +195,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3254947824173385382}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 428e11cc264f85446979fbd24e8c4013, type: 3}
+  m_Script: {fileID: 11500000, guid: faf223607f72b284bb0590424feb0b2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentState: 0
-  speed: 3
-  target: {fileID: 0}
   lineOfSight: 9.46
   attackRange: 2.15
+  meleeCooldown: 0
+  meleeAttackTimer: 2
 --- !u!114 &5234032181955447501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,8 +232,8 @@ MonoBehaviour:
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
-  noGameManager: 1
   maxHealth: 500
+  isInvulnerable: 0
   corpse: {fileID: 5059203997698328803, guid: 7b98c874ade273d48bdd63fbd1b224a1, type: 3}
 --- !u!1 &7887515694085040680
 GameObject:
@@ -281,7 +280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d991631b04215884f8cd122d949d4fc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 30
+  damage: 40
 --- !u!70 &228536133076290926
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

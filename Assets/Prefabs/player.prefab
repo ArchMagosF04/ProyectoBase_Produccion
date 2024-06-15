@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 3978920250157747625}
   - component: {fileID: 6572516924814592484}
   - component: {fileID: 1509008146845185977}
-  - component: {fileID: 4589753635964331837}
   - component: {fileID: 6798311131601534935}
   m_Layer: 0
   m_Name: player
@@ -190,11 +189,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ac63cbf43fb8aa49a14978ff62b2f1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 5
-  DashSpeed: 18
-  DashDuration: 0.25
+  Speed: 5.2
+  playerDamage: {fileID: 2824252880883273302}
   DashCoolDown: 1
-  StartDialogue: 0
 --- !u!114 &6572516924814592484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,25 +216,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 833226c52bf1b73408658b957917fd8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 250
   healthSlider: {fileID: 0}
---- !u!114 &4589753635964331837
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2684815127174619242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec3b78bd051328941a208a68c517f398, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentState: 0
-  animator: {fileID: 6847066137863962609}
-  combo: 1
-  isAttacking: 0
-  playerDamage: {fileID: 2824252880883273302}
+  isInvulnerable: 0
 --- !u!114 &6798311131601534935
 MonoBehaviour:
   m_ObjectHideFlags: 0

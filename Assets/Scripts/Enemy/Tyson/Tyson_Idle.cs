@@ -42,5 +42,6 @@ public class Tyson_Idle : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         animator.ResetTrigger("MeleeAttack");
+        animator.ResetTrigger("SpinAttack");
     }
 }

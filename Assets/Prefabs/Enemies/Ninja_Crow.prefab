@@ -80,7 +80,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d991631b04215884f8cd122d949d4fc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 25
 --- !u!1 &7739516299943869294
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 4364295534868490982}
   - component: {fileID: 6538308392983167777}
   - component: {fileID: 4589161124761291635}
-  - component: {fileID: 4397912291405838310}
+  - component: {fileID: 8743313329615218719}
   - component: {fileID: 5346877937178739009}
   - component: {fileID: 6861057682420202779}
   m_Layer: 0
@@ -255,7 +255,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &4397912291405838310
+--- !u!114 &8743313329615218719
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -264,18 +264,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 7739516299943869294}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0eac23f3389a0245898e3f4b84f0bc1, type: 3}
+  m_Script: {fileID: 11500000, guid: d2f4436108424ad47ac9fa359e89f0f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentState: 0
-  speed: 6
-  target: {fileID: 0}
   lineOfSight: 9.1
-  dodgeReactionRange: 6.21
   attackRange: 4
-  DashSpeed: -40
-  DodgeDuration: 0.25
-  DiveDuration: 0.25
+  dodgeReactionRange: 6.21
+  attackCooldown: 0
+  attackTimer: 1.5
+  dodgeCooldown: 0
+  dodgeTimer: 15
 --- !u!114 &5346877937178739009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -307,6 +305,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   maxHealth: 80
+  isInvulnerable: 0
   corpse: {fileID: 3029320820760090350, guid: b99a5485afe28874caacb20802faa46a, type: 3}
 --- !u!114 &6861057682420202779
 MonoBehaviour:

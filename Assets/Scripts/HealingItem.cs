@@ -12,7 +12,7 @@ public class HealingItem : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Debug.Log("Player Healed");
-            collision.gameObject.GetComponent<PlayerHealth>().UpdateHealth(healingAmount);
+            collision.gameObject.GetComponent<PlayerHealth>().GainHealth(healingAmount);
             Destroy(gameObject);
         }
     }

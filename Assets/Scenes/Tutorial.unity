@@ -8553,6 +8553,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 7037610457271156806, guid: 81141a44311f58b4cb32c7af94e3ec7f, type: 3}
+      propertyPath: attackRange
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7037610457271156806, guid: 81141a44311f58b4cb32c7af94e3ec7f, type: 3}
+      propertyPath: lineOfSight
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 7996605040953433340, guid: 81141a44311f58b4cb32c7af94e3ec7f, type: 3}
       propertyPath: corpse
       value: 

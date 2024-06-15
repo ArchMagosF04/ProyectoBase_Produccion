@@ -17,8 +17,6 @@ public class TysonController : MonoBehaviour
     private float distanceFromPlayer;
     private Animator animator;
 
-    private bool hasDetectedPlayer=false;
-
     public bool meleeCooldown;
     [SerializeField] private float meleeAttackTimer = 3.5f;
     private float meleeAttackTimerRecord;
@@ -47,12 +45,6 @@ public class TysonController : MonoBehaviour
         if (distanceFromPlayer < lineOfSight && distanceFromPlayer > attackRange)
         {
             animator.SetBool("isMoving", true);
-            if(!hasDetectedPlayer)
-            {
-                //lineOfSight += 50f;
-                hasDetectedPlayer = true;
-            }
-            
         }
     }
 

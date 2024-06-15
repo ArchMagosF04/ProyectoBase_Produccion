@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 249410655187251360}
   - component: {fileID: 3094939326328350570}
   - component: {fileID: 6402074584196030561}
-  - component: {fileID: 1853820230348535943}
+  - component: {fileID: 7037610457271156806}
   - component: {fileID: 7996605040953433340}
   - component: {fileID: 6790177923615280776}
   m_Layer: 0
@@ -174,7 +174,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1853820230348535943
+--- !u!114 &7037610457271156806
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -183,14 +183,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2825731550446695039}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 428e11cc264f85446979fbd24e8c4013, type: 3}
+  m_Script: {fileID: 11500000, guid: faf223607f72b284bb0590424feb0b2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentState: 0
-  speed: 5
-  target: {fileID: 0}
   lineOfSight: 8
   attackRange: 1.3
+  meleeCooldown: 0
+  meleeAttackTimer: 1.5
 --- !u!114 &7996605040953433340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,8 +220,8 @@ MonoBehaviour:
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
-  noGameManager: 1
   maxHealth: 100
+  isInvulnerable: 0
   corpse: {fileID: 2440818547935023124, guid: f1cb84853ca5c184b8962f250e8e7113, type: 3}
 --- !u!114 &6790177923615280776
 MonoBehaviour:
