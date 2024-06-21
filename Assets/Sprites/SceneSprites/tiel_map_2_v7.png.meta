@@ -1,0 +1,1566 @@
+fileFormatVersion: 2
+guid: 4607c44942fa0204e9d292be5f80013d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 108
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tiel_map_2_v7_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 643
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfe83ad848af4b40bc94e99fbda190e
+      internalID: -2101215491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 643
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c40f83da79cac4d83163183d2a17c1
+      internalID: -106066538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 643
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c132a0c82b7749442817b69f79bbd313
+      internalID: 2093337699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 644
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4835f6fe0583f4082372a5e304097c
+      internalID: 1911708282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_4
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 644
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f5313ddff3ed04981ff378fe2e4993
+      internalID: 1723863798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_5
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 644
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8934d47a46d3f8a46802feee0b258e5b
+      internalID: 1002810642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_6
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 644
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14800573c619a14797d41f47676e923
+      internalID: -1445713576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_7
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 644
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83afb502f7fb4a84797710b0123ed98f
+      internalID: -268240291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_8
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 644
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805deda9a420c7e4c9048bd22df910bb
+      internalID: -1417786820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_9
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 644
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f99a7df50fab44695ecaa09f20458a
+      internalID: -1647848028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 536
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc43760ee28ac6409d1d1a8bdfcc934
+      internalID: -920289746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_11
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 536
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18b5804f66584645afa685e99f1bde9
+      internalID: 423316373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_12
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 536
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e835ca6e6ddfb74e9e43e8ddf9cc07b
+      internalID: 214132527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_13
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 536
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8755184545b1d65489932d3adb5b925f
+      internalID: 621117641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_14
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 536
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f459752a032544a9fc1eb87623f5aa
+      internalID: -1740550166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_15
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 536
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e654dd28759089440a910ce825d6d0f9
+      internalID: 275044059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_16
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 536
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8816c7a2c4c8147a41ada6678eb94c
+      internalID: -1427632519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_17
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 536
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154272968324b49469f5b9242343e339
+      internalID: 725055929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_18
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 536
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55546ee3a3cdbc44f9290e1d927405bf
+      internalID: 79639833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_19
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 536
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1bc47f16a82c24da5f7c51c3a535b3
+      internalID: 1497704591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_20
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 536
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c32fbc0e90a98499fe3a4e265cb047
+      internalID: 929287306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_21
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 536
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d783c2bb8e6c70641aa31b6a23236957
+      internalID: -84225890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 430
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247f99c01b48ac743a46d57f0dac1381
+      internalID: -1377932404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_23
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 430
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe8615b8255d114c8e5faa537982d9a
+      internalID: 1519683072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_24
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 430
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5856191eba6d4d342a5282e659e23a33
+      internalID: -297145387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_25
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 428
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1504df50a1c6e1408be355d34f2f776
+      internalID: 1350210049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_26
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 428
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812f7beac32ceec4fb69a4822c8d5c0b
+      internalID: 1479443533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_27
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 428
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922e81ffe1b409a42becc5c1f6784c8d
+      internalID: -243169546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_28
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 428
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41096535d09bd8c4cb1648227613ff5a
+      internalID: -1745468846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_29
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 428
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c8554736ea333488f44f68e0520c2a
+      internalID: -256480753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_30
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 428
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3fc17103146a84c87d60534d68cb11
+      internalID: -1252659755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_31
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 428
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad0b378ca6b5674c8f0382530383d3a
+      internalID: 47218830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_32
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 428
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df163e0ff9035b549b8396197fca3c27
+      internalID: -436102340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_33
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 428
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea0bdbd62111c64ea54175aa1a14796
+      internalID: 1570067517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_34
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 320
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db1546c7ffce1f4d9354de050a7a6dc
+      internalID: -1456631061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_35
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 320
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca081f6192c443c4b9e4e1718809aa33
+      internalID: 1796294026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_36
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 320
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f7668f586128e49a50a9a42dc92804
+      internalID: 470750561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_37
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 320
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8857171624976f54e8dd12c9233b75aa
+      internalID: -1652708594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_38
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 320
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42780710035bb33469155b627ebf9e01
+      internalID: -1077585923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_39
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 320
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c61a33e5bd60da4895fb78399f5dabb
+      internalID: -1855286170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_40
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 320
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0de6903f0cbcf643a49805049ae5e58
+      internalID: -1722356970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_41
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 320
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118526917c07404458ba34e0a12c1c78
+      internalID: -469422095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_42
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 320
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251a99e70ad82fa42b40b85739036bff
+      internalID: -525575325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_43
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 320
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f8c290e50870a43b7ed758fce6ff95
+      internalID: -298608307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_44
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 320
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6f9486e68448d4884d884509b84dee
+      internalID: -1825198257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_45
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 213
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39ed6614700d1d4bb1fc652e40d415d
+      internalID: -1913022614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_46
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 212
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502fcf6c67d6c7b4c92007fc96465cdb
+      internalID: -412908670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_47
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 213
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d9ede32c33af84f92e8ba30749f674
+      internalID: -1748535989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_48
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 212
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a23f1928d94b8445a90e3fcd20ec2c2
+      internalID: -1533615672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_49
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 212
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3854b4e20660f554bb9eb851f86905f6
+      internalID: -1577620561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_50
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 212
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449d4767887fe824c98434b866a1b162
+      internalID: -2003748490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_51
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 212
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93635db80524acd42a071dc1b97892be
+      internalID: 442504812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_52
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 212
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2a028a29a4b604e9548bbad82bfded
+      internalID: -1667584284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_53
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 212
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb43603f3154c646bbd6fad52c8a34b
+      internalID: -439909053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_54
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 212
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3368484cfd9888949b6c1b203b5b117f
+      internalID: -2083939986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_55
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 107
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc762598c6b72074ba079ca294c97b78
+      internalID: 1467260213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_56
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 107
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecfd877a0770dea4499672a6cd33db6a
+      internalID: -1799742770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_57
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 107
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d01ad268d13b8b4f9ab3e67ebb262c9
+      internalID: 1456898671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_58
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 104
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb98126536f533d489c0684b0c0971f5
+      internalID: -980892380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_59
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 104
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e5953703c6eb944b6f9f3cf158727b
+      internalID: -1544220386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_60
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 104
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb4d4d3cedd3194995b1b287c31a1e0
+      internalID: 1039827386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_61
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 104
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375af47f0b7efaf41af965f3899ba10a
+      internalID: -1302559158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_62
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 104
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9016c8b496f444949b1666e7172b822f
+      internalID: 1377556640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_63
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 104
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872a331679497bc468d0b246b5279707
+      internalID: 1714628954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_64
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 104
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8358dc94d9a330549bb597fff3cb25b5
+      internalID: 1559919719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tiel_map_2_v7_65
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 104
+        width: 110
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e529cd2964a364542931f0fe2722f89a
+      internalID: -1341113960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      tiel_map_2_v7_0: -2101215491
+      tiel_map_2_v7_1: -106066538
+      tiel_map_2_v7_10: -920289746
+      tiel_map_2_v7_11: 423316373
+      tiel_map_2_v7_12: 214132527
+      tiel_map_2_v7_13: 621117641
+      tiel_map_2_v7_14: -1740550166
+      tiel_map_2_v7_15: 275044059
+      tiel_map_2_v7_16: -1427632519
+      tiel_map_2_v7_17: 725055929
+      tiel_map_2_v7_18: 79639833
+      tiel_map_2_v7_19: 1497704591
+      tiel_map_2_v7_2: 2093337699
+      tiel_map_2_v7_20: 929287306
+      tiel_map_2_v7_21: -84225890
+      tiel_map_2_v7_22: -1377932404
+      tiel_map_2_v7_23: 1519683072
+      tiel_map_2_v7_24: -297145387
+      tiel_map_2_v7_25: 1350210049
+      tiel_map_2_v7_26: 1479443533
+      tiel_map_2_v7_27: -243169546
+      tiel_map_2_v7_28: -1745468846
+      tiel_map_2_v7_29: -256480753
+      tiel_map_2_v7_3: 1911708282
+      tiel_map_2_v7_30: -1252659755
+      tiel_map_2_v7_31: 47218830
+      tiel_map_2_v7_32: -436102340
+      tiel_map_2_v7_33: 1570067517
+      tiel_map_2_v7_34: -1456631061
+      tiel_map_2_v7_35: 1796294026
+      tiel_map_2_v7_36: 470750561
+      tiel_map_2_v7_37: -1652708594
+      tiel_map_2_v7_38: -1077585923
+      tiel_map_2_v7_39: -1855286170
+      tiel_map_2_v7_4: 1723863798
+      tiel_map_2_v7_40: -1722356970
+      tiel_map_2_v7_41: -469422095
+      tiel_map_2_v7_42: -525575325
+      tiel_map_2_v7_43: -298608307
+      tiel_map_2_v7_44: -1825198257
+      tiel_map_2_v7_45: -1913022614
+      tiel_map_2_v7_46: -412908670
+      tiel_map_2_v7_47: -1748535989
+      tiel_map_2_v7_48: -1533615672
+      tiel_map_2_v7_49: -1577620561
+      tiel_map_2_v7_5: 1002810642
+      tiel_map_2_v7_50: -2003748490
+      tiel_map_2_v7_51: 442504812
+      tiel_map_2_v7_52: -1667584284
+      tiel_map_2_v7_53: -439909053
+      tiel_map_2_v7_54: -2083939986
+      tiel_map_2_v7_55: 1467260213
+      tiel_map_2_v7_56: -1799742770
+      tiel_map_2_v7_57: 1456898671
+      tiel_map_2_v7_58: -980892380
+      tiel_map_2_v7_59: -1544220386
+      tiel_map_2_v7_6: -1445713576
+      tiel_map_2_v7_60: 1039827386
+      tiel_map_2_v7_61: -1302559158
+      tiel_map_2_v7_62: 1377556640
+      tiel_map_2_v7_63: 1714628954
+      tiel_map_2_v7_64: 1559919719
+      tiel_map_2_v7_65: -1341113960
+      tiel_map_2_v7_7: -268240291
+      tiel_map_2_v7_8: -1417786820
+      tiel_map_2_v7_9: -1647848028
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

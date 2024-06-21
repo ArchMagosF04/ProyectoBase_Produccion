@@ -13,7 +13,7 @@ public class PlayerDamage : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag=="Enemy")
+        if (collision.gameObject.tag == "Enemy")
         {
             Debug.Log("Enemy Attacked");
             EnemyLife enemyLife = collision.gameObject.GetComponent<EnemyLife>();
@@ -21,12 +21,18 @@ public class PlayerDamage : MonoBehaviour
             enemyLife.TakeDamage(damage);
             return;
         }
-        if(collision.gameObject.tag=="Tyson")
+        if (collision.gameObject.tag == "Tyson")
         {
             TysonHealth tysonHealth = collision.gameObject.GetComponent<TysonHealth>();
 
             tysonHealth.TakeDamage(damage);
             return;
+        }
+        if (collision.gameObject.tag == "Bobby")
+        {
+            BobbyHealth bobbyHealth = collision.gameObject.GetComponent<BobbyHealth>();
+
+            bobbyHealth.TakeDamage(damage);
         }
     }
 }

@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Audio
   - Tyson
+  - Bobby
+  - Wall
   layers:
   - Default
   - TransparentFX

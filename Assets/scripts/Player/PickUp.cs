@@ -29,7 +29,7 @@ public class PickUp : MonoBehaviour
         {
             SetDirection();
 
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.E) && !ScreenManager.Instance.isDialogueActive)
             {
                 if (itemHolding)
                 {
@@ -64,7 +64,7 @@ public class PickUp : MonoBehaviour
             }
             if (Input.GetMouseButtonUp(0))
             {
-                if (itemHolding)
+                if (itemHolding && !ScreenManager.Instance.isDialogueActive)
                 {
                     ThrowItem(itemHolding);
                     itemHolding = null;

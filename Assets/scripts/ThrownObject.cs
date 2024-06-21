@@ -48,7 +48,15 @@ public class ThrownObject : MonoBehaviour
                 TysonHealth tysonHealth = collision.gameObject.GetComponent<TysonHealth>();
 
                 tysonHealth.TakeDamage(damage);
-                return;
+                Destroy(this.gameObject);
+            }
+            if (collision.gameObject.tag == "Bobby")
+            {
+                BobbyHealth bobbyHealth = collision.gameObject.GetComponent<BobbyHealth>();
+
+                bobbyHealth.TakeDamage(damage);
+                bobbyHealth.TakeShieldDamage();
+                Destroy(this.gameObject);
             }
         }
     }

@@ -64,8 +64,9 @@ public class AudioManager : MonoBehaviour
     {
         if (Input.GetMouseButtonUp(0))
         {
-            if(wasSliderChanged)
+            if(wasSliderChanged && ScreenManager.Instance.isPaused)
             {
+                Debug.Log("PLay select");
                 PlaySFX(select);
                 wasSliderChanged = false;
             }

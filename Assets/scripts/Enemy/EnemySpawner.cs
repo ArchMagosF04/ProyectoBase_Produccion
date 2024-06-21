@@ -4,50 +4,64 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    public GameObject prefab;
-    private float globalTimer;
-    private float spawnTimer;
-    private float modSpawnTimer;
+    public GameObject[] crows;
+
+    public Transform[] spawnPoints;
+
+    public bool isActive=false;
+
+    private bool spawnCooldown=true;
+    [SerializeField] private float spawnTime;
+    private float initialTime;
+
 
     private void Start()
     {
-        SpawnEnemies();
-        globalTimer = 0f; 
-        spawnTimer=10f;
-        modSpawnTimer = spawnTimer;
+        initialTime = spawnTime;
     }
 
 
     // Update is called once per frame
     void Update()
     {
-        spawnTimer-=Time.deltaTime;
-
-        if (spawnTimer <= 0f)
+        if(isActive)
         {
-            SpawnEnemies();
-            spawnTimer = modSpawnTimer;
-        }
+            SpawnOnCooldown();
 
-
-
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            SpawnEnemies();
-        }
-
-        globalTimer += Time.deltaTime;
-
-        if (globalTimer >= 15f && modSpawnTimer>=6f)
-        {
-            modSpawnTimer -= 1f;
-            globalTimer = 0f;
+            if (!spawnCooldown)
+            {
+                SpawnEnemies();
+                spawnCooldown = true;
+            }
         }
     }
 
-    void SpawnEnemies()
+    public void ActivateSpawner()
     {
-        GameObject enemy = Instantiate(prefab);
-        enemy.transform.position = transform.position;
+        isActive = true;
+        spawnCooldown = true;
+        spawnTime = initialTime;
+    }
+
+    private void SpawnOnCooldown()
+    {
+        if (spawnCooldown == true)
+        {
+            spawnTime -= Time.deltaTime;
+            if (spawnTime <= 0)
+            {
+                spawnCooldown = false;
+                spawnTime = initialTime;
+            }
+        }
+    }
+
+    public void SpawnEnemies()
+    {
+        for (int i = 0; i < spawnPoints.Length; i++)
+        {
+            GameObject enemy = Instantiate(crows[i]);
+            enemy.transform.position = spawnPoints[i].transform.position;
+        }
     }
 }
