@@ -28,6 +28,10 @@ public class Ninja_Idle : StateMachineBehaviour
 
         distanceFromPlayer = Vector2.Distance(player.position, animator.transform.position);
 
+        if (distanceFromPlayer <= controller.AttackRange && controller.attackCooldown == false)
+        {
+            animator.SetTrigger("StartAttack");
+        }
         if (distanceFromPlayer <= controller.LineOfSight && distanceFromPlayer > controller.AttackRange)
         {
             animator.SetBool("isMoving", true);
@@ -39,11 +43,6 @@ public class Ninja_Idle : StateMachineBehaviour
                 animator.SetTrigger("Dodge");
             }
         }
-        if (distanceFromPlayer <= controller.AttackRange && controller.attackCooldown == false)
-        {
-            animator.SetTrigger("StartAttack");
-        }
-
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state

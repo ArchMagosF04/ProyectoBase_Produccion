@@ -43,6 +43,11 @@ public class EnemySpawner : MonoBehaviour
         spawnTime = initialTime;
     }
 
+    public void DeactivateSpawner()
+    {
+        isActive = false;
+    }
+
     private void SpawnOnCooldown()
     {
         if (spawnCooldown == true)

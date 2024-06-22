@@ -52,8 +52,7 @@ public class TysonController : MonoBehaviour
     {
         lineOfSight = 75f;
         spinRange = 9f;
-        spinCooldown = true;
-        spinAttackTimer = spinAttackTimerRecord;
+        ActivateSpinCooldown();
     }
 
 

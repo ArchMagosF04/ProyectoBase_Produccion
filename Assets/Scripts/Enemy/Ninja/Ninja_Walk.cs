@@ -30,6 +30,15 @@ public class Ninja_Walk : StateMachineBehaviour
 
         distanceFromPlayer = Vector2.Distance(player.position, animator.transform.position);
 
+
+        if (distanceFromPlayer <= controller.AttackRange && controller.attackCooldown == false)
+        {
+            animator.SetTrigger("StartAttack");
+        }else if(distanceFromPlayer <= controller.AttackRange)
+        {
+            animator.SetBool("isMoving", false);
+        }
+
         if (distanceFromPlayer > controller.LineOfSight)
         {
             animator.SetBool("isMoving", false);
@@ -44,10 +53,6 @@ public class Ninja_Walk : StateMachineBehaviour
             {
                 animator.SetTrigger("Dodge");
             }
-        }
-        if (distanceFromPlayer <= controller.AttackRange && controller.attackCooldown == false)
-        {
-            animator.SetTrigger("StartAttack");
         }
     }
 

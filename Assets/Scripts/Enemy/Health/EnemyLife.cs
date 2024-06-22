@@ -37,6 +37,8 @@ public class EnemyLife : MonoBehaviour
 
         if(health <= 0)
         {
+            isInvulnerable = true;
+            health = 0;
             GameObject enemyCorpese = Instantiate(corpse);
             enemyCorpese.transform.position=transform.position;
             enemyCorpese.transform.rotation=transform.rotation;

@@ -12,6 +12,8 @@ public class NinjaCrowController : MonoBehaviour
     public float AttackRange => attackRange;
     public float DodgeReactionRange => dodgeReactionRange;
 
+    private bool losIncrease=false;
+
     private Transform player;
     private float distanceFromPlayer;
     private Animator animator;
@@ -40,13 +42,19 @@ public class NinjaCrowController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        direction = player.position - animator.transform.position;
+        direction = player.position - transform.position;
         direction.Normalize();
 
         distanceFromPlayer = Vector2.Distance(player.position, transform.position);
 
         DodgeCooldown();
         AttackCooldown();
+
+        if (distanceFromPlayer <= lineOfSight && !losIncrease)
+        {
+            lineOfSight += 30f;
+            losIncrease = true;
+        }
     }
 
     public void ActivateAttackCooldown()

@@ -10,6 +10,8 @@ public class EnemyController : MonoBehaviour
     public float LineOfSight => lineOfSight;
     public float AttackRange => attackRange;
 
+    private bool losIncrease = false;
+
     private Transform player;
     private float distanceFromPlayer;
     private Animator animator;
@@ -32,6 +34,12 @@ public class EnemyController : MonoBehaviour
         AttackCooldown();
 
         distanceFromPlayer = Vector2.Distance(player.position, transform.position);
+
+        if(distanceFromPlayer<=lineOfSight && !losIncrease)
+        {
+            lineOfSight += 30f;
+            losIncrease = true;
+        }
     }
 
     public void ActivateAttackCooldown()
