@@ -23,5 +23,6 @@ public class Higor_FlameAttack : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         animator.SetBool("HasUsedAction", true);
+        controller.ActivateFlameCooldown();
     }
 }

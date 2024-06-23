@@ -9,7 +9,10 @@ public class UniversalTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        OnTrigger?.Invoke();
-        Destroy(gameObject);
+        if(collision.gameObject.tag == "Player")
+        {
+            OnTrigger?.Invoke();
+            Destroy(gameObject);
+        }
     }
 }

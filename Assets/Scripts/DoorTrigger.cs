@@ -16,6 +16,7 @@ public class DoorTrigger : MonoBehaviour
     private int enemiesKilled;
 
     public UnityEvent OnTrigger = new UnityEvent();
+    public UnityEvent OnUnlock = new UnityEvent();
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -38,6 +39,7 @@ public class DoorTrigger : MonoBehaviour
         {
             doors.SetActive(false);
             wasTriggered = true;
+            OnUnlock?.Invoke();
             gameObject.SetActive(false);
         }
     }

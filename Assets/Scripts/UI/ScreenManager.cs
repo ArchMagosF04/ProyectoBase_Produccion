@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -9,6 +10,7 @@ public class ScreenManager : MonoBehaviour
 {
     public static ScreenManager Instance { get; private set; }
 
+    [SerializeField] private TMP_Dropdown dropdown;
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject comboList;
     [SerializeField] private GameObject optionsMenu;
@@ -40,6 +42,8 @@ public class ScreenManager : MonoBehaviour
         }
 
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+        dropdown.value = PlayerPrefs.GetInt("GameDificulty", 1);
+        DropdownChanged();
     }
 
     private void OnDestroy()
@@ -59,6 +63,27 @@ public class ScreenManager : MonoBehaviour
         levelCompleteMenu.SetActive(false);
         isLevelComplete=false;
         newDiaryEntry.SetActive(false);
+    }
+
+    public void DropdownChanged()
+    {
+        int index = dropdown.value;
+        switch (index)
+        {
+            case 0:
+                PlayerPrefs.SetFloat("PlayerDamageMultiplier", 1.25f);
+                PlayerPrefs.SetFloat("EnemyDamageMultiplier", 0.75f);
+                break;
+            case 1:
+                PlayerPrefs.SetFloat("PlayerDamageMultiplier", 1f);
+                PlayerPrefs.SetFloat("EnemyDamageMultiplier", 1f);
+                break;
+            case 2:
+                PlayerPrefs.SetFloat("PlayerDamageMultiplier", 1.25f);
+                PlayerPrefs.SetFloat("EnemyDamageMultiplier", 1.25f);
+                break;
+        }
+        PlayerPrefs.SetInt("GameDificulty", index);
     }
 
     public void PauseMenuButton()

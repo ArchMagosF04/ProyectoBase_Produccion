@@ -44,7 +44,7 @@ public class PlayerHealth : MonoBehaviour
             return;
         }
         animator.SetTrigger("GotHurt");
-        health += change;
+        health += change*PlayerPrefs.GetFloat("EnemyDamageMultiplier");
         audioManager.PlaySFX(audioManager.playerHit);
 
         Debug.Log("Player Health: " + health);

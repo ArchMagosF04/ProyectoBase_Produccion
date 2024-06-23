@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -15,6 +16,8 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private GameObject cheatButtons;
     private bool areCheatsEnabled;
 
+    [SerializeField] private TMP_Dropdown dropdown;
+
     private void Awake()
     {
         loadingScreen.SetActive(false);
@@ -24,6 +27,9 @@ public class MainMenu : MonoBehaviour
         {
             codexButton.interactable=true;
         }
+
+        dropdown.value = PlayerPrefs.GetInt("GameDificulty",1);
+        DropdownChanged();
 
         audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
@@ -89,6 +95,27 @@ public class MainMenu : MonoBehaviour
     public void ButtonSFX()
     {
         audioManager.PlaySFX(audioManager.select);
+    }
+
+    public void DropdownChanged()
+    {
+        int index = dropdown.value;
+        switch (index)
+        {
+            case 0:
+                PlayerPrefs.SetFloat("PlayerDamageMultiplier", 1.25f);
+                PlayerPrefs.SetFloat("EnemyDamageMultiplier", 0.75f);
+                break;
+            case 1:
+                PlayerPrefs.SetFloat("PlayerDamageMultiplier", 1f);
+                PlayerPrefs.SetFloat("EnemyDamageMultiplier", 1f);
+                break;
+            case 2:
+                PlayerPrefs.SetFloat("PlayerDamageMultiplier", 1.25f);
+                PlayerPrefs.SetFloat("EnemyDamageMultiplier", 1.25f);
+                break;
+        }
+        PlayerPrefs.SetInt("GameDificulty", index);
     }
 
     IEnumerator LoadSceneAsynchronously(string sceneName)

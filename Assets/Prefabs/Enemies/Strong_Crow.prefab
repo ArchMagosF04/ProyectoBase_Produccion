@@ -138,7 +138,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 20
   m_LinearDrag: 5
   m_AngularDrag: 5
   m_GravityScale: 0
@@ -199,9 +199,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineOfSight: 9.46
-  attackRange: 2.15
+  attackRange: 2.25
   meleeCooldown: 0
-  meleeAttackTimer: 2
+  meleeAttackTimer: 1.5
 --- !u!114 &5234032181955447501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,7 +232,7 @@ MonoBehaviour:
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
-  maxHealth: 500
+  maxHealth: 300
   isInvulnerable: 0
   corpse: {fileID: 5059203997698328803, guid: 7b98c874ade273d48bdd63fbd1b224a1, type: 3}
 --- !u!1 &7887515694085040680

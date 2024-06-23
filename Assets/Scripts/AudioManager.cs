@@ -18,6 +18,10 @@ public class AudioManager : MonoBehaviour
     public AudioClip level1;
     public AudioClip level2;
     public AudioClip tysonBoss;
+    public AudioClip level3;
+    public AudioClip level4;
+    public AudioClip level5;
+    public AudioClip level6;
     private AudioClip selectedAudio;
 
     [SerializeField] private int musicIndex;
@@ -52,6 +56,21 @@ public class AudioManager : MonoBehaviour
             case 3:
                 selectedAudio = level2;
                 break;
+            case 4:
+                selectedAudio = tysonBoss;
+                break;
+            case 5:
+                selectedAudio = level3;
+                break;
+            case 6:
+                selectedAudio = level4;
+                break;
+            case 7:
+                selectedAudio = level5;
+                break;
+            case 8:
+                selectedAudio = level6;
+                break;
         }
 
         LoadVolume();
@@ -64,7 +83,7 @@ public class AudioManager : MonoBehaviour
     {
         if (Input.GetMouseButtonUp(0))
         {
-            if(wasSliderChanged && ScreenManager.Instance.isPaused)
+            if(wasSliderChanged/* && ScreenManager.Instance.isPaused*/)
             {
                 Debug.Log("PLay select");
                 PlaySFX(select);

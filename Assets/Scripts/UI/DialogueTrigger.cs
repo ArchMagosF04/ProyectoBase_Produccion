@@ -12,12 +12,12 @@ public class DialogueTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(hasEndEvent)
+        if(hasEndEvent && wasActivated==false)
         {
             DialogueManager.Instance.hasEndEvent = true;
         }
 
-        if(collision.gameObject.tag == "Player" &&wasActivated==false)
+        if(collision.gameObject.tag == "Player" && wasActivated==false)
         {
             TriggerDialogue();
             wasActivated=true;

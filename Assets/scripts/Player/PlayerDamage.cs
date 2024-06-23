@@ -18,30 +18,30 @@ public class PlayerDamage : MonoBehaviour
             Debug.Log("Enemy Attacked");
             EnemyLife enemyLife = collision.gameObject.GetComponent<EnemyLife>();
 
-            enemyLife.TakeDamage(damage);
+            enemyLife.TakeDamage(damage * PlayerPrefs.GetFloat("PlayerDamageMultiplier"));
         }
         if (collision.gameObject.tag == "Tyson")
         {
             TysonHealth tysonHealth = collision.gameObject.GetComponent<TysonHealth>();
 
-            tysonHealth.TakeDamage(damage);
+            tysonHealth.TakeDamage(damage * PlayerPrefs.GetFloat("PlayerDamageMultiplier"));
         }
         if (collision.gameObject.tag == "Bobby")
         {
             BobbyHealth bobbyHealth = collision.gameObject.GetComponent<BobbyHealth>();
 
-            bobbyHealth.TakeDamage(damage);
+            bobbyHealth.TakeDamage(damage * PlayerPrefs.GetFloat("PlayerDamageMultiplier"));
         }
         if (collision.gameObject.tag == "Bubble")
         {
             HigorShield bubbleShield = collision.gameObject.GetComponent<HigorShield>();
 
-            bubbleShield.TakeDamage(damage);
+            bubbleShield.TakeDamage(damage * PlayerPrefs.GetFloat("PlayerDamageMultiplier"));
         }
         if (collision.gameObject.tag == "Higor")
         {
             HigorHealth health = collision.gameObject.GetComponent<HigorHealth>();
-            health.TakeDamage(damage);
+            health.TakeDamage(damage * PlayerPrefs.GetFloat("PlayerDamageMultiplier"));
         }
     }
 }
