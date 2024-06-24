@@ -16,6 +16,7 @@ public class HigorController : MonoBehaviour
     private float distanceFromPlayer;
     private Animator animator;
     private Rigidbody2D rigidBody;
+    AudioManager audioManager;
 
     public float DistanceFromPlayer => distanceFromPlayer;
 
@@ -56,6 +57,7 @@ public class HigorController : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         animator = GetComponent<Animator>();
         rigidBody = GetComponent<Rigidbody2D>();
         higorCollider = GetComponent<CapsuleCollider2D>();
@@ -123,6 +125,7 @@ public class HigorController : MonoBehaviour
 
     private void LaunchMissile()
     {
+        audioManager.PlaySFX(audioManager.mageMissile);
         GameObject missile = Instantiate(magicMissile);
         missile.transform.position = missileOrigin1.position;
         missile.transform.localRotation = missileOrigin1.rotation;
@@ -138,6 +141,7 @@ public class HigorController : MonoBehaviour
 
     public void LaunchFlameblast()
     {
+        audioManager.PlaySFX(audioManager.mageFlame);
         GameObject blast = Instantiate(flameBlast);
         blast.transform.position=flameOrigin.position;
         blast.transform.localRotation=flameOrigin.rotation;
@@ -158,12 +162,14 @@ public class HigorController : MonoBehaviour
             }
         }
         lastTeleportLocation = teleportLocation;
+        audioManager.PlaySFX(audioManager.mageTeleport);
         transform.position = teleportRunes[teleportLocation].position;
     }
 
     public void SummonCrows()
     {
-        if(shield.ShieldThreshold3)
+        audioManager.PlaySFX(audioManager.crowHit);
+        if (shield.ShieldThreshold3)
         {
             OnSummon25?.Invoke();
             shouldSummon = false;

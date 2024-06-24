@@ -22,6 +22,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip level4;
     public AudioClip level5;
     public AudioClip level6;
+    public AudioClip credits;
     private AudioClip selectedAudio;
 
     [SerializeField] private int musicIndex;
@@ -32,6 +33,15 @@ public class AudioManager : MonoBehaviour
     public AudioClip select;
     public AudioClip playerHit;
     public AudioClip crowHit;
+    public AudioClip heavyCrowHit;
+    public AudioClip mageFlame;
+    public AudioClip mageMissile;
+    public AudioClip mageShieldHit;
+    public AudioClip mageShieldPorcentage;
+    public AudioClip mageTeleport;
+    public AudioClip playerDash;
+    public AudioClip letterType;
+    public AudioClip healing;
 
     [SerializeField] private AudioMixer myMixer;
     [SerializeField] private Slider masterSlider;
@@ -70,6 +80,9 @@ public class AudioManager : MonoBehaviour
                 break;
             case 8:
                 selectedAudio = level6;
+                break;
+            case 9:
+                selectedAudio = credits;
                 break;
         }
 

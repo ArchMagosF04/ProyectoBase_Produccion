@@ -42,6 +42,7 @@ public class ThrownObject : MonoBehaviour
                 EnemyLife enemyLife = collision.gameObject.GetComponent<EnemyLife>();
 
                 enemyLife.TakeDamage(damage * PlayerPrefs.GetFloat("PlayerDamageMultiplier"));
+                Destroy(this.gameObject);
             }
             if (collision.gameObject.tag == "Tyson")
             {
@@ -63,11 +64,13 @@ public class ThrownObject : MonoBehaviour
                 HigorShield bubbleShield = collision.gameObject.GetComponent<HigorShield>();
 
                 bubbleShield.TakeDamage(damage * PlayerPrefs.GetFloat("PlayerDamageMultiplier"));
+                Destroy(this.gameObject);
             }
             if (collision.gameObject.tag == "Higor")
             {
                 HigorHealth health = collision.gameObject.GetComponent<HigorHealth>();
                 health.TakeDamage(damage * PlayerPrefs.GetFloat("PlayerDamageMultiplier"));
+                Destroy(this.gameObject);
             }
         }
     }

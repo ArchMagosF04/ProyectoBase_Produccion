@@ -19,12 +19,12 @@ public class Player_Idle : StateMachineBehaviour
     {
         if (!hasGivenInput)
         {
-            if (Input.GetMouseButtonDown(0) && pickUp.IsHoldingItem == false)
+            if (Input.GetMouseButtonDown(0) && pickUp.IsHoldingItem == false && ScreenManager.Instance.isPaused==false)
             {
                 animator.SetTrigger("Punch1");
                 hasGivenInput = true;
             }
-            if (Input.GetMouseButtonDown(1) && pickUp.IsHoldingItem == false)
+            if (Input.GetMouseButtonDown(1) && pickUp.IsHoldingItem == false && ScreenManager.Instance.isPaused == false)
             {
                 animator.SetTrigger("Kick1");
                 hasGivenInput = true;

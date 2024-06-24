@@ -162,6 +162,13 @@ public class ScreenManager : MonoBehaviour
         StartCoroutine(LoadSceneAsynchronously(levelName));
     }
 
+    public void GoToCredits()
+    {
+        Time.timeScale = 1;
+        string levelName = "Credits";
+        StartCoroutine(LoadSceneAsynchronously(levelName));
+    }
+
     public void ButtonSFX()
     {
         audioManager.PlaySFX(audioManager.select);

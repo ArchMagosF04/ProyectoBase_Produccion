@@ -255,7 +255,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 47a0a9b477d25b34a9d11c876c31d228, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9bf9512d41f68c143b1fa8ad8a5f8238, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -725,13 +725,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136448988}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1157509622}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 657, y: 0}
@@ -830,14 +830,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.9406719, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: -210011100, guid: 32954d18dec5cf2479cc9221cc3e4166, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10710,7 +10710,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1500, y: 900}
+  m_SizeDelta: {x: 1750, y: 1100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &798501949
 MonoBehaviour:
@@ -10725,14 +10725,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.24149188, g: 0.4245283, b: 0, a: 1}
+  m_Color: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 2dec7b6fa1b0d9745891355e026151ff, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11595,13 +11595,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 914187236}
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 274559018}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -657.0001, y: 0}
@@ -11700,14 +11700,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.9406719, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 970525492, guid: 32954d18dec5cf2479cc9221cc3e4166, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14981,12 +14981,26 @@ MonoBehaviour:
   level1: {fileID: 8300000, guid: 2d6ede91f87ca454b89b7743134f8b6b, type: 3}
   level2: {fileID: 0}
   tysonBoss: {fileID: 0}
+  level3: {fileID: 0}
+  level4: {fileID: 0}
+  level5: {fileID: 0}
+  level6: {fileID: 0}
+  credits: {fileID: 0}
   musicIndex: 1
   punch: {fileID: 8300000, guid: 81e953dce63971041a42f6c19ea86ae1, type: 3}
   kick: {fileID: 8300000, guid: 3b305344d41da784b9831f1974622797, type: 3}
   select: {fileID: 8300000, guid: b43f69a95f7ea6a44add2eb738da8326, type: 3}
   playerHit: {fileID: 8300000, guid: 13330aa983593de4e8f7b96f21f07b01, type: 3}
   crowHit: {fileID: 8300000, guid: 10fccf077e1cd194da77f3dc5e27f874, type: 3}
+  heavyCrowHit: {fileID: 0}
+  mageFlame: {fileID: 0}
+  mageMissile: {fileID: 0}
+  mageShieldHit: {fileID: 0}
+  mageShieldPorcentage: {fileID: 0}
+  mageTeleport: {fileID: 0}
+  playerDash: {fileID: 8300000, guid: 4e349dc959014a845b9aa317d1c2b7f0, type: 3}
+  letterType: {fileID: 8300000, guid: cd3dee2c6c37f2c4da4bf0a38d7b1095, type: 3}
+  healing: {fileID: 8300000, guid: cfce0cea076109f478783201b2a9f57f, type: 3}
   myMixer: {fileID: 24100000, guid: 1d9d0b7959403924a90698150d3da174, type: 2}
   masterSlider: {fileID: 1216773194}
   musicSlider: {fileID: 556726605}

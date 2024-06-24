@@ -2389,7 +2389,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: LEVEL 2
+  m_text: Nivel 2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5d3271b22a296fd46ad69e6f9c70e4cb, type: 2}
   m_sharedMaterial: {fileID: 3578760144581082998, guid: 5d3271b22a296fd46ad69e6f9c70e4cb, type: 2}
@@ -3253,7 +3253,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: LEVEL 4
+  m_text: Nivel 4
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5d3271b22a296fd46ad69e6f9c70e4cb, type: 2}
   m_sharedMaterial: {fileID: 3578760144581082998, guid: 5d3271b22a296fd46ad69e6f9c70e4cb, type: 2}
@@ -4498,7 +4498,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: LEVEL 6
+  m_text: Nivel 6
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5d3271b22a296fd46ad69e6f9c70e4cb, type: 2}
   m_sharedMaterial: {fileID: 3578760144581082998, guid: 5d3271b22a296fd46ad69e6f9c70e4cb, type: 2}
@@ -6018,7 +6018,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: LEVEL 3
+  m_text: NIvel 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5d3271b22a296fd46ad69e6f9c70e4cb, type: 2}
   m_sharedMaterial: {fileID: 3578760144581082998, guid: 5d3271b22a296fd46ad69e6f9c70e4cb, type: 2}
@@ -7630,7 +7630,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: LEVEL 5
+  m_text: Nivel 5
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5d3271b22a296fd46ad69e6f9c70e4cb, type: 2}
   m_sharedMaterial: {fileID: 3578760144581082998, guid: 5d3271b22a296fd46ad69e6f9c70e4cb, type: 2}
@@ -7764,7 +7764,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: LEVEL 1
+  m_text: Nivel 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5d3271b22a296fd46ad69e6f9c70e4cb, type: 2}
   m_sharedMaterial: {fileID: 3578760144581082998, guid: 5d3271b22a296fd46ad69e6f9c70e4cb, type: 2}
@@ -9955,16 +9955,25 @@ MonoBehaviour:
   level1: {fileID: 8300000, guid: 2d6ede91f87ca454b89b7743134f8b6b, type: 3}
   level2: {fileID: 8300000, guid: 5f63d01fd8a9c82439f3a945a8ff5e40, type: 3}
   tysonBoss: {fileID: 8300000, guid: 80c58de3094a4794eb745104946d3601, type: 3}
-  level3: {fileID: 0}
-  level4: {fileID: 0}
-  level5: {fileID: 0}
-  level6: {fileID: 0}
+  level3: {fileID: 8300000, guid: c5957d60a62385b4cbdc4ebc8e89ee86, type: 3}
+  level4: {fileID: 8300000, guid: ff6ab93cd319fb24fa20385898059b54, type: 3}
+  level5: {fileID: 8300000, guid: e04f2abab1b6ea04dbfa2edca41ceb17, type: 3}
+  level6: {fileID: 8300000, guid: 15f1d1d4b8e35f04db2db3859dcf4174, type: 3}
+  credits: {fileID: 0}
   musicIndex: 0
   punch: {fileID: 8300000, guid: 81e953dce63971041a42f6c19ea86ae1, type: 3}
   kick: {fileID: 8300000, guid: 3b305344d41da784b9831f1974622797, type: 3}
   select: {fileID: 8300000, guid: b43f69a95f7ea6a44add2eb738da8326, type: 3}
   playerHit: {fileID: 8300000, guid: 13330aa983593de4e8f7b96f21f07b01, type: 3}
   crowHit: {fileID: 8300000, guid: 10fccf077e1cd194da77f3dc5e27f874, type: 3}
+  heavyCrowHit: {fileID: 0}
+  mageFlame: {fileID: 0}
+  mageMissile: {fileID: 0}
+  mageShieldHit: {fileID: 0}
+  mageShieldPorcentage: {fileID: 0}
+  mageTeleport: {fileID: 8300000, guid: a089cfaf8e3ede146979c8b47651940a, type: 3}
+  playerDash: {fileID: 8300000, guid: 4e349dc959014a845b9aa317d1c2b7f0, type: 3}
+  letterType: {fileID: 8300000, guid: cd3dee2c6c37f2c4da4bf0a38d7b1095, type: 3}
   myMixer: {fileID: 24100000, guid: 1d9d0b7959403924a90698150d3da174, type: 2}
   masterSlider: {fileID: 2085651077}
   musicSlider: {fileID: 934919636}

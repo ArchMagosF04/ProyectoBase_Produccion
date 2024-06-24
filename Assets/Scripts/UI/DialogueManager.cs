@@ -12,6 +12,7 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI dialogueText;
 
     public Animator animator;
+    AudioManager audioManager;
 
     private Queue<string> speakerName;
     private Queue<string> sentences;
@@ -43,6 +44,7 @@ public class DialogueManager : MonoBehaviour
     {
         speakerName = new Queue<string>();
         sentences = new Queue<string>();
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     private void Update()
@@ -101,8 +103,9 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = "";
         foreach(char letter in sentence.ToCharArray())
         {
+            audioManager.PlaySFX(audioManager.letterType);
             dialogueText.text += letter;
-            yield return new WaitForSecondsRealtime(0.01f);
+            yield return new WaitForSecondsRealtime(0.1f);
         }
     }
 

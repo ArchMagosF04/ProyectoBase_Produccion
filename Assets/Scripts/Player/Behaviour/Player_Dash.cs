@@ -11,14 +11,17 @@ public class Player_Dash : StateMachineBehaviour
     PlayerHealth health;
     Movement movement;
     Rigidbody2D playerRB;
+    AudioManager audioManager;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         playerRB=animator.GetComponent<Rigidbody2D>();
-        movement=animator.GetComponent<Movement>();
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+        movement =animator.GetComponent<Movement>();
         health=animator.GetComponent<PlayerHealth>(); 
         health.isInvulnerable=true;
+        audioManager.PlaySFX(audioManager.playerDash);
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks

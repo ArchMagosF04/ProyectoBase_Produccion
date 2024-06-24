@@ -32,11 +32,9 @@ public class CodexUnlocks : MonoBehaviour
         }
         if (unlockedLevel>=3)
         {
-            buttons[3].interactable = true;
             buttons[4].interactable = true;
             buttons[9].interactable = true;
 
-            texts[3].enabled = true;
             texts[4].enabled = true;
             texts[9].enabled = true;
         }
@@ -56,8 +54,10 @@ public class CodexUnlocks : MonoBehaviour
         }
         if(unlockedLevel>=6)
         {
+            buttons[3].interactable = true;
             buttons[11].interactable = true;
 
+            texts[3].enabled = true;
             texts[11].enabled = true;
         }
         if(unlockedLevel>6)

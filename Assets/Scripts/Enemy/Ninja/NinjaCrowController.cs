@@ -17,6 +17,7 @@ public class NinjaCrowController : MonoBehaviour
     private Transform player;
     private float distanceFromPlayer;
     private Animator animator;
+    AudioManager audioManager;
 
     public bool attackCooldown;
     [SerializeField] private float attackTimer = 3.5f;
@@ -33,6 +34,7 @@ public class NinjaCrowController : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         animator = GetComponent<Animator>();
         attackTimerRecord = attackTimer;
         dodgeTimerRecord = dodgeTimer;
@@ -80,6 +82,11 @@ public class NinjaCrowController : MonoBehaviour
                 attackTimer = attackTimerRecord;
             }
         }
+    }
+
+    public void AttackSFX()
+    {
+        audioManager.PlaySFX(audioManager.playerDash);
     }
 
     public void Dash(float DashSpeed)

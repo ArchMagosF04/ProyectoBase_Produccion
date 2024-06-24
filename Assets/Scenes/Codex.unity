@@ -585,7 +585,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Casa
+  m_text: Choza
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5d3271b22a296fd46ad69e6f9c70e4cb, type: 2}
   m_sharedMaterial: {fileID: 3578760144581082998, guid: 5d3271b22a296fd46ad69e6f9c70e4cb, type: 2}
@@ -6704,7 +6704,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Villano
+  m_text: Higor
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5d3271b22a296fd46ad69e6f9c70e4cb, type: 2}
   m_sharedMaterial: {fileID: 3578760144581082998, guid: 5d3271b22a296fd46ad69e6f9c70e4cb, type: 2}
@@ -10146,7 +10146,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Casa
+  m_text: Choza
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 88d8b4a8ca71a4243ba82dff74f8ae67, type: 2}
   m_sharedMaterial: {fileID: -2787752668152764938, guid: 88d8b4a8ca71a4243ba82dff74f8ae67, type: 2}
@@ -13796,12 +13796,22 @@ MonoBehaviour:
   level4: {fileID: 8300000, guid: ff6ab93cd319fb24fa20385898059b54, type: 3}
   level5: {fileID: 8300000, guid: e04f2abab1b6ea04dbfa2edca41ceb17, type: 3}
   level6: {fileID: 8300000, guid: 15f1d1d4b8e35f04db2db3859dcf4174, type: 3}
+  credits: {fileID: 0}
   musicIndex: 0
   punch: {fileID: 8300000, guid: 81e953dce63971041a42f6c19ea86ae1, type: 3}
   kick: {fileID: 8300000, guid: 3b305344d41da784b9831f1974622797, type: 3}
   select: {fileID: 8300000, guid: b43f69a95f7ea6a44add2eb738da8326, type: 3}
   playerHit: {fileID: 8300000, guid: 13330aa983593de4e8f7b96f21f07b01, type: 3}
   crowHit: {fileID: 8300000, guid: 10fccf077e1cd194da77f3dc5e27f874, type: 3}
+  heavyCrowHit: {fileID: 0}
+  mageFlame: {fileID: 0}
+  mageMissile: {fileID: 0}
+  mageShieldHit: {fileID: 0}
+  mageShieldPorcentage: {fileID: 0}
+  mageTeleport: {fileID: 0}
+  playerDash: {fileID: 0}
+  letterType: {fileID: 0}
+  healing: {fileID: 0}
   myMixer: {fileID: 24100000, guid: 1d9d0b7959403924a90698150d3da174, type: 2}
   masterSlider: {fileID: 2034626380}
   musicSlider: {fileID: 1490545399}

@@ -16,6 +16,7 @@ public class HigorShield : MonoBehaviour
     public bool isInvulnerable=false;
 
     private Animator animator;
+    AudioManager audioManager;
 
     private bool shieldThreshold1=false;
     private bool shieldThreshold2=false;
@@ -32,6 +33,7 @@ public class HigorShield : MonoBehaviour
     {
         shield = maxShield;
         animator = GetComponent<Animator>();
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         shieldSlider.maxValue = maxShield;
     }
 
@@ -49,22 +51,26 @@ public class HigorShield : MonoBehaviour
         }
 
         shield -= damage;
+        audioManager.PlaySFX(audioManager.mageShieldHit);
 
         Debug.Log("Enemy Health: " + shield);
 
         if (shield <= maxShield * 0.75 && !shieldThreshold1)
         {
             animator.SetTrigger("Below75");
+            audioManager.PlaySFX(audioManager.mageShieldPorcentage);
             shieldThreshold1 = true;
         }
         if (shield <= maxShield * 0.5 && !shieldThreshold2)
         {
             animator.SetTrigger("Below50");
+            audioManager.PlaySFX(audioManager.mageShieldPorcentage);
             shieldThreshold2 = true;
         }
         if (shield <= maxShield * 0.25 && !shieldThreshold3)
         {
             animator.SetTrigger("Below25");
+            audioManager.PlaySFX(audioManager.mageShieldPorcentage);
             shieldThreshold3 = true;
         }
         if (shield <= 0)
