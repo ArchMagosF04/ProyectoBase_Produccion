@@ -1771,7 +1771,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Pasture's Sample Text
+  m_text: "Los campos del Viejo Peterson, posiblemente el huerto m\xE1s conocido
+    por no haber sido completamente devorado por cuervos a pesar de estar cerca de
+    una gran congregaci\xF3n de ellos. Sus \xFAltimas palabras fueron que se tomar\xEDa
+    unas vacaciones y regresar\xEDa pronto, pidi\xE9ndole a Jin-Hee que cuidara su
+    huerto. Esperemos que no regrese pronto y vea que m\xE1s de la mitad de su huerto
+    qued\xF3 destruido por alg\xFAn tipo de tornado furioso. El objetivo de los cuervos
+    era construir una base con tiendas de campa\xF1a, pero se centraron tanto en
+    la comida que todos los Cuervos B\xE1sicos terminaron abatidos en el suelo por
+    su propio apetito. Tyson fue la excepci\xF3n; intent\xF3 hacerlo solo y aunque
+    logr\xF3 destruir un \xE1rea rectangular, tuvo dificultades para continuar con
+    la creaci\xF3n debido a que no est\xE1 acostumbrado a manejar las cosas con delicadeza.
+    Los Cuervos Ninja ayudar\xEDan a todos los cuervos rechonchos a escapar, empuj\xE1ndolos
+    como pelotas y llev\xE1ndolos a su base para que puedan descansar y recuperarse
+    antes de vengar a Tyson ante su propio sacrificio."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3168,7 +3181,25 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tyson's Sample Text
+  m_text: "Aunque el General Tyson Higgins pueda parecer simplemente otro cuervo
+    musculoso, subestimarlo ser\xEDa un error. Desde su forma completamente animal,
+    Tyson siempre se sinti\xF3 opacado por la sombra de Bobby, el cuervo favorito
+    de su due\xF1o. Determinado a demostrar que estaba a la altura de las expectativas,
+    Tyson rechaz\xF3 el pensamiento com\xFAn de rendirse frente a un oponente tan
+    formidable como Bobby. Entren\xF3 d\xEDa y noche, fortaleciendo brazos, pecho,
+    piernas, pies, cuello, cabeza y cualquier m\xFAsculo que pudiera, lleno de adrenalina
+    gracias a las incontables tazas de caf\xE9 consumidas. Sin embargo, enfrentarse
+    a Bobby no era tarea f\xE1cil. Bobby pose\xEDa un talento natural excepcional
+    y, aunque Tyson nunca se ha rendido hasta ahora, avanza cada vez m\xE1s lentamente,
+    lo que le frustra e incrementa su impaciencia por el d\xEDa en que desafiar\xE1
+    a Bobby para tomar su lugar como la mascota favorita de su propietario. En lo
+    m\xE1s profundo de su coraz\xF3n, aunque Tyson siente celos hacia Bobby por un
+    v\xEDnculo que \xE9l nunca podr\xE1 tener, en el fondo lo respeta y admira, reconociendo
+    que sus movimientos son dignos y equivalentes a los de un verdadero prodigio
+    intelectual. El ejercicio favorito de entrenamiento de Tyson es el press de banca,
+    y el peso que levanta habitualmente en dicho ejercicio es de 406 kilogramos.
+    Tyson tiene pesadillas con Bobby derrot\xE1ndolo una y otra vez, a pesar de su
+    fuerza."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5020,7 +5051,24 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Strong Crow's Sample Text
+  m_text: "En t\xE9rminos evolutivos, los cuervos fuertes representan la siguiente
+    etapa despu\xE9s del cuervo b\xE1sico, llevando sus entrenamientos impuestos
+    por Tyson hasta los l\xEDmites m\xE1ximos. Esto aumenta su resistencia debido
+    a la insistencia psicol\xF3gica agresiva de Tyson, y su fuerza se incrementa
+    mediante levantamientos de pesas cada vez m\xE1s pesadas. Lamentablemente, son
+    muy pocos los cuervos b\xE1sicos que logran seguir el ritmo intenso impuesto
+    por Tyson. Los pocos que lo logran reciben unos shorts y un collar que simbolizan
+    su ascenso a un nuevo nivel. Sin embargo, los sacrificios son inevitables, y
+    hasta la fecha, la \xFAnica forma de tener alguna posibilidad de alcanzar un
+    nivel tan alto es salt\xE1ndose el d\xEDa de entrenamiento de piernas, lo que
+    los vuelve sumamente lentos y les causa graves problemas para intentar golpear
+    enemigos con alta velocidad. Aunque los cuervos fuertes pueden parecer criaturas
+    terriblemente agresivas debido a sus poderosos impactos que remodelan el suelo
+    con pura fuerza bruta, en realidad poseen un coraz\xF3n gigantesco que los impulsa
+    a actuar de manera bondadosa y comprensiva hacia sus compa\xF1eros y al Estratega
+    Implacable, vi\xE9ndose a s\xED mismos como soldados que simplemente deben ganar
+    el mayor tiempo posible para sus superiores. Todos los cuervos fuertes se juntan
+    para realizar un torneo de pulseadas cada viernes por la ma\xF1ana antes de entrenar."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5047,8 +5095,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22
-  m_fontSizeBase: 22
+  m_fontSize: 21
+  m_fontSizeBase: 21
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5524,7 +5572,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21.399963, y: -0.000030517578}
+  m_AnchoredPosition: {x: 21.399963, y: 0.4}
   m_SizeDelta: {x: 650, y: 570}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &792166544
@@ -5547,7 +5595,24 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Neighbors' Sample Text
+  m_text: "El se\xF1or del mal posee muchos nombres, pero prefiere ser llamado por
+    su nombre real, Ivior. Muchos podr\xEDan creer que \xE9l es la principal causa
+    de este conflicto, y aunque esas personas est\xE1n en lo correcto, Ivior siente
+    un amor incondicional hacia sus cuervos, consider\xE1ndolos a cada uno como hijos
+    suyos, donde ninguno es mejor que otro. Se muestra protector ante quienes los
+    da\xF1an, lo que lo llev\xF3 a tomar la dr\xE1stica y poco justificada decisi\xF3n
+    de transformarlos en cuervos musculosos, listos para vengarse de sus respectivos
+    agresores. Durante el caos desatado por los cuervos musculosos, podr\xEDa pensarse
+    que Ivior sospechaba de este desenlace, pero cualquier sospecha inicial fue r\xE1pidamente
+    disipada por un cartel mal escrito que uno de los cuervos b\xE1sicos coloc\xF3,
+    indicando que estaban recolectando semillas. Ivior, orgulloso y creyendo haber
+    redimido a los cuervos en sus violentos asaltos a los huertos de las granjas,
+    se sent\xF3 con orgullo en su trono y aprovech\xF3 las vastas bibliotecas de
+    su castillo para investigar m\xE1s sobre ellos. Afortunadamente, Ivior contaba
+    con Bobby a su lado para mitigar la soledad en su inmenso castillo, pero en un
+    momento dado, Bobby se retir\xF3 persiguiendo una mariposa amarilla, y lo siguiente
+    que vio fue la silueta que anunciaba la llegada de un h\xE9roe\u2026 Ese sombrero
+    era inconfundible, y entonces la figura abri\xF3 los ojos, preparada para luchar."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5756,7 +5821,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Higor
+  m_text: Ivior
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 88d8b4a8ca71a4243ba82dff74f8ae67, type: 2}
   m_sharedMaterial: {fileID: -2787752668152764938, guid: 88d8b4a8ca71a4243ba82dff74f8ae67, type: 2}
@@ -6570,7 +6635,22 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Field's Sample Text
+  m_text: "La pradera, conocida por bordear los campos de trigo del Viejo Peterson
+    y limitar su expansi\xF3n, hab\xEDa sido tomada por los Cuervos Ninja. A diferencia
+    de Tyson y su equipo, ellos lograron establecer con \xE9xito su base secreta,
+    entrenando constantemente contra m\xFAltiples mu\xF1ecos de entrenamiento. Finalmente,
+    Shen cay\xF3 en la trampa del camino que ellos hab\xEDan dise\xF1ado para desviar
+    su esp\xEDritu heroico y seguir rumbo hacia el castillo, ignorando la posibilidad
+    de encontrar su base secreta. Prepar\xE1ndose para el combate, los cuervos b\xE1sicos
+    se mantuvieron fieles a sus ideales y decidieron pelear utilizando lo que Tyson
+    les hab\xEDa ense\xF1ado en lugar de aprender las artes ninja. Por otro lado,
+    los Cuervos Ninja respetaron la decisi\xF3n de los cuervos b\xE1sicos y dejaron
+    un peque\xF1o grupo en la base secreta por si las cosas no ten\xEDan el resultado
+    positivo que esperaban. Insatisfechos con pelear solos, los Cuervos Ninja trajeron
+    un refuerzo muy importante utilizando su arte de control de mariposas, sometiendo
+    a Bobby mediante un proceso similar a la hipnosis para que guardara la salida
+    de Shen de la pradera como la \xFAltima poderosa l\xEDnea de defensa. Me pregunto
+    por qu\xE9 no atacan todos juntos al mismo tiempo\u2026 No pienso juzgar."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6704,7 +6784,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Higor
+  m_text: Ivior
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5d3271b22a296fd46ad69e6f9c70e4cb, type: 2}
   m_sharedMaterial: {fileID: 3578760144581082998, guid: 5d3271b22a296fd46ad69e6f9c70e4cb, type: 2}
@@ -7301,7 +7381,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21.399996, y: 0}
+  m_AnchoredPosition: {x: 21.399996, y: 0.6}
   m_SizeDelta: {x: 650, y: 570}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1030271233
@@ -7324,7 +7404,25 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Witch's Sample Text
+  m_text: "Jin-Hee, denominada con el apodo de Bruja debido a un evento de su tr\xE1gico
+    pasado, busca una nueva vida totalmente alejada de la magia, ya que cada vez
+    que la utiliza sucede algo que no puede evitar considerar un mal augurio. Si
+    bien todo iba bastante bien durante muchos a\xF1os, todo cambiar\xEDa cuando
+    se propuso la idea de crear un huerto. Al principio, Jin-Hee estaba totalmente
+    decidida a hacerlo sin magia debido a su largo y exitoso historial de trabajo
+    artesanal, pero despu\xE9s de m\xFAltiples ataques de cuervos e incluso la destrucci\xF3n
+    del espantap\xE1jaros que construy\xF3 para defender el huerto, supo que algo
+    andaba mal y decidi\xF3 romper su racha intacta para arriesgarse una vez m\xE1s
+    a confiar en la magia. Jin-Hee esperaba un golem sirviente, obediente y firme
+    sin igual. Pero, una vez m\xE1s, el resultado para la bruja fue algo nuevo e
+    inesperado. El mu\xF1eco de paja se comportaba como un ni\xF1o excesivamente
+    energ\xE9tico, y ella deb\xEDa cuidarlo y ense\xF1arle los valores necesarios
+    para que pudiera tener buen criterio en el futuro. Con el paso del tiempo, Jin-Hee
+    volvi\xF3 a enfocarse m\xE1s en el trabajo, lo que hizo que cada vez que regresara
+    esperara encontrar un nuevo desastre causado por Shen mientras ella estaba ausente
+    para cuidarlo. Con una paciencia sin igual y un fuerte sentido de la responsabilidad,
+    Jin-Hee resistir\xEDa d\xEDa a d\xEDa hasta que, en un momento, Shen... ya no
+    estar\xEDa en casa. Se fue por los cuervos."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8688,7 +8786,25 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Crow's Sample Text
+  m_text: "Constantemente menospreciados por ser los cuervos m\xE1s comunes, los
+    cuervos b\xE1sicos constituyen m\xE1s de tres cuartos del total que la mente
+    maestra del ej\xE9rcito posee, siendo la mayor cantidad de cuervos en todo el
+    ej\xE9rcito. Estos cuervos est\xE1n siempre preparados para el combate y pasan
+    por un entrenamiento inicial donde son evaluados para determinar su aptitud en
+    el escuadr\xF3n del General Tyson, quien mejora sus habilidades f\xEDsicas y
+    estrat\xE9gicamente los despliega en las l\xEDneas defensivas m\xE1s adecuadas.
+    Otros cuervos b\xE1sicos se dedican al saqueo del gran huerto, no solo para alimentarse
+    adecuadamente, sino tambi\xE9n para abastecer al resto de las tropas. Sin estos
+    cuervos, toda la preparaci\xF3n del ej\xE9rcito podr\xEDa fracasar f\xE1cilmente.
+    Por eso, son fundamentales para enfrentar las peores situaciones y llegar en
+    gran n\xFAmero, demostrando que aportan m\xE1s que simples cuerpos para lanzar
+    al enemigo. En cuanto a sus habilidades sociales, estos cuervos son realmente
+    buenos para organizar fiestas y bailar. Sin embargo, todos son demasiado t\xEDmidos
+    como para ejecutar sus mejores pasos en la pista, convirti\xE9ndolos en expertos
+    en el arte de quedarse quietos y simplemente dar pasos en la zona, esperando
+    a que alguien m\xE1s tenga la valent\xEDa de bailar. Esto resulta en un ciclo
+    repetitivo donde nadie baila y todos se quedan simplemente conversando entre
+    ellos mismos sobre sus vidas."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9187,7 +9303,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21.399963, y: -0.000030517578}
+  m_AnchoredPosition: {x: 21.399963, y: 0.3}
   m_SizeDelta: {x: 650, y: 570}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1277522887
@@ -9210,7 +9326,24 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ninja's Sample Text
+  m_text: "Los Cuervos Ninja son un grupo que va mucho m\xE1s all\xE1 de la sigilosidad.
+    Siguiendo a Shen a lo largo de su aventura con grandes hechizos de invisibilidad,
+    son los encargados de informar a Tyson sobre las amenazas, permiti\xE9ndole enviar
+    a sus mejores soldados al castillo para enfrentar al enemigo en un combate uno
+    contra uno. Tras presenciar la derrota de Tyson y ver a Shen acercarse a su territorio,
+    los Cuervos Ninja crearon un camino para tenderle m\xFAltiples emboscadas y mantener
+    al espantap\xE1jaros lejos de su base, donde entrenan continuamente para enfrentar
+    a su enemigo con t\xE9cnicas m\xE1s que m\xFAsculos. Su determinaci\xF3n por
+    la victoria, a pesar de la falta de forma f\xEDsica, fue tal que robaron tempranamente
+    una p\xE1gina del Gran Libro del Luchador Solitario, obteniendo acceso al ic\xF3nico
+    dash de Shen y mejor\xE1ndolo con bombas de humo en su armamento ninja. Tambi\xE9n
+    transformaron el dash en un estilo ofensivo y frontal al lanzar sus propios cuerpos
+    con picos en forma de lanza, demostrando una perfecta combinaci\xF3n y dominio
+    de la t\xE9cnica. Este estilo defensivo y ofensivo simult\xE1neo fue resultado
+    de sus detallados estudios sobre su enemigo. Los Cuervos Ninja llevan sombreros
+    de espantap\xE1jaros sobre sus cabezas, ya que representan su victoria sobre
+    otros espantap\xE1jaros y demuestran que est\xE1n capacitados para unirse al
+    escuadr\xF3n anti-espantap\xE1jaros y pelear por \xE9l."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10819,7 +10952,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21.399963, y: -0.000030517578}
+  m_AnchoredPosition: {x: 21.399963, y: 0.7}
   m_SizeDelta: {x: 650, y: 570}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1475872780
@@ -10842,7 +10975,24 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Bobby's Sample Text
+  m_text: "Bobby, observado por todos los dem\xE1s cuervos como la mano derecha del
+    Genio Oscuro, se dedica a una serie de mal\xE9volas actividades que lo definen
+    como el hombre que es ahora. Su d\xEDa comienza por la tarde, cuando se despierta
+    y se dirige al ba\xF1o para cepillarse los dientes. Despu\xE9s de realizar un
+    enjuague bucal, asiste al banquete real de cuervos con su se\xF1or, quien prepara
+    m\xE1gicamente cientos de delicias para \xE9l y sus invitados, que generalmente
+    son solo Bobby y \xE9l mismo. Mientras su se\xF1or cuenta algunos chistes durante
+    la comida, Bobby observa fijamente a su titular, pudiendo ver a trav\xE9s de
+    las ventanas transparentes de su alma. El se\xF1or de Bobby abre la boca y sus
+    ojos sorprendidos, ambos asienten lentamente, confirmando que es hora del postre.
+    El amo de Bobby regresa y coloca sobre la mesa un gran plato lleno de helado.
+    Bobby abre la boca, mira el plato y luego a su se\xF1or una y otra vez, totalmente
+    anonadado, para luego comenzar a comer fren\xE9ticamente todas las bolas de helado,
+    vaciando la temible monta\xF1a a una velocidad que para un humano com\xFAn ser\xEDa
+    espeluznante. Mientras Bobby est\xE1 a mitad de comer el helado, reflexiona sobre
+    su mariposa favorita: definitivamente son las mariposas de color amarillo. En
+    ese momento, vuelve a la realidad, mira su helado y se da cuenta de que ya lo
+    ha terminado, cayendo sobre la mesa dormido. \xA1Bobby deber\xEDa repetirlo!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12019,7 +12169,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Bruja
+  m_text: Jin-Hee
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5d3271b22a296fd46ad69e6f9c70e4cb, type: 2}
   m_sharedMaterial: {fileID: 3578760144581082998, guid: 5d3271b22a296fd46ad69e6f9c70e4cb, type: 2}
@@ -12534,7 +12684,24 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: House's Sample Text
+  m_text: "Posiblemente, uno de los lugares m\xE1s c\xF3modos que puedas encontrar,
+    alejado de cualquier ciudad o pueblo. La choza es un peque\xF1o hogar con m\xFAltiples
+    habitaciones donde viven Shen y Jin-Hee. Aunque al principio puedas sentir cierta
+    desconfianza y temor que todo se derrumbe si cierras la puerta demasiado fuerte,
+    la realidad es que Jin-Hee se encarg\xF3 de realizar una serie de mejoras que
+    convirtieron algo bueno en algo a\xFAn mejor. Cada d\xEDa viviendo en la choza
+    es simplemente fant\xE1stico. Los cantos de los p\xE1jaros aqu\xED ser\xE1n los
+    bellos graznidos de los cuervos. \xA1Adem\xE1s, la choza tiene una valla de madera
+    en la parte trasera para evitar la entrada de posibles intrusos! \xBFY qu\xE9
+    sucede si entran por delante? Bueno, en ese caso podr\xE1s verlos e identificarlos,
+    lo que te dar\xE1 el momento adecuado para reaccionar a tiempo. Y por si eso
+    no fuera suficientemente bueno para tus codiciosas expectativas, \xA1la entrada
+    tiene escaleras y una chimenea! Realmente, es todo un lujo. Ahora, como te has
+    tomado la molestia de leer o al menos saltar hasta esta parte, d\xE9jame contarte
+    un secreto: la margarita que Shen lleva en su sombrero fue un regalo de Jin-Hee.
+    Proviene de su primer huerto y ella la mantuvo sana con su magia. Simboliza la
+    belleza e inocencia. Me pregunto por qu\xE9 ella conserv\xF3 la margarita en
+    primer lugar..."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13290,7 +13457,21 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Castle's Sample Text
+  m_text: "Este tenebroso y misterioso castillo no es como cualquier otro que otra
+    persona haya visto. En este castillo, vayas por donde vayas, siempre encontrar\xE1s
+    una sutil referencia hacia los cuervos. La gente com\xFAn cree que no es m\xE1s
+    que una teor\xEDa. Pero, \xBFsabes qu\xE9 opino al respecto? Opino que cada una
+    de las pinturas, cada uno de los pilares, cada uno de los cubiertos, simboliza
+    una respuesta que nos lleva hacia una verdad incuestionable. Quien est\xE9 detr\xE1s
+    de esto tiene demasiado dinero y lo desperdicia de las peores maneras posibles.
+    Adem\xE1s, claramente es alguien muy t\xE9trico del que deber\xEDamos preocuparnos
+    bastante... Despu\xE9s de pasar esa sala, puede que ya no haya vuelta atr\xE1s
+    hacia la terrible figura que espera la llegada de Shen... Y aunque \xE9l intente
+    ocultarlo muy profundamente, desde su n\xFAcleo puede sentir ese terror renacer
+    por cada paso m\xE1s cercano que da\u2026 \xA1Ahora quiten todos los botiquines
+    para asustarlo tambi\xE9n! Es broma, Es broma... \xA1Pero aseg\xFArense de darle
+    con todo lo que tengan! \xBF\xA1Me escucharon?! \xA1Quiero ver algo de acci\xF3n!
+    \r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14071,7 +14252,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21.399996, y: 0}
+  m_AnchoredPosition: {x: 21.399996, y: 0.4}
   m_SizeDelta: {x: 650, y: 570}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2082693558
@@ -14094,7 +14275,25 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Shen's Sample Text
+  m_text: "Desde su nacimiento, Shen disfrut\xF3 de sus tiempos libres leyendo libros
+    infantiles sobre h\xE9roes y fantas\xEDa. Debido a su falta de salidas al exterior
+    y a las vestimentas que Jin-Hee llevaba, empez\xF3 gradualmente a percibir el
+    mundo tal como los libros lo narraban. La realidad es que, cuando lleg\xF3 el
+    d\xEDa en el que Shen descubri\xF3 qui\xE9nes eran los responsables de atacar
+    su huerto, su entrenamiento no solo comenz\xF3 para recuperar las plantas merecidas,
+    sino que tambi\xE9n internamente deseaba poder defenderse de otras amenazas que
+    se le aparecieran en su camino. Por esa raz\xF3n, el n\xFAcleo m\xE1gico con
+    el que Jin-Hee le dio vida a su cuerpo comenz\xF3 a evolucionar sin que Shen
+    se percatara. Los d\xEDas pasaban y, como Shen no pod\xEDa transmitir la magia
+    mediante m\xE9todos convencionales, su cuerpo hac\xEDa que la activaci\xF3n se
+    ejecutar\xE1 en el combate cuerpo a cuerpo. La condici\xF3n inconsciente que
+    Shen estableci\xF3 para hacer esta activaci\xF3n mucho m\xE1s sencilla consist\xEDa
+    en ejecutar los mismos movimientos aprendidos en 'El gran libro del luchador
+    solitario: patadas y pu\xF1os prohibidos', lo que, si bien hac\xEDa sus movimientos
+    mucho m\xE1s predecibles, tambi\xE9n los hac\xEDa m\xE1s efectivos. De esta forma,
+    Shen es capaz de enfrentarse al ej\xE9rcito de cuervos siempre y cuando no olvide
+    los movimientos del manual. Eso, o simplemente atacar de manera err\xE1tica para
+    ver qu\xE9 sucede\u2026 Algo que t\xFA... jam\xE1s har\xEDas... \xBFno?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

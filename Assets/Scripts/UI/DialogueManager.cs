@@ -105,7 +105,7 @@ public class DialogueManager : MonoBehaviour
         {
             audioManager.PlaySFX(audioManager.letterType);
             dialogueText.text += letter;
-            yield return new WaitForSecondsRealtime(0.1f);
+            yield return new WaitForSecondsRealtime(0.05f);
         }
     }
 
@@ -114,8 +114,9 @@ public class DialogueManager : MonoBehaviour
         ScreenManager.Instance.isDialogueActive = false;
         animator.SetBool("IsOpen", false);
         Time.timeScale = 1;
+        StopAllCoroutines();
 
-        if(hasEndEvent)
+        if (hasEndEvent)
         {
             OnEndDialogue?.Invoke();
             hasEndEvent = false;

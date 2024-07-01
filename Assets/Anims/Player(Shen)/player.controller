@@ -15,7 +15,7 @@ MonoBehaviour:
   punchAttack: Punch1
   kickAttack: Kick1
   attackType: 1
-  damage: 30
+  damage: 40
   movement: {fileID: 0}
   isFinisher: 1
 --- !u!114 &-8452460623666701535
@@ -177,7 +177,7 @@ MonoBehaviour:
   punchAttack: Punch1
   kickAttack: Kick1
   attackType: 1
-  damage: 30
+  damage: 50
   movement: {fileID: 0}
   isFinisher: 1
 --- !u!1101 &-6552147978481252655
@@ -552,7 +552,7 @@ MonoBehaviour:
   punchAttack: Punch1
   kickAttack: Kick1
   attackType: 2
-  damage: 30
+  damage: 35
   movement: {fileID: 0}
   isFinisher: 1
 --- !u!1102 &-1353982943344893445
@@ -653,7 +653,7 @@ MonoBehaviour:
   punchAttack: PunchA3
   kickAttack: KickA3
   attackType: 2
-  damage: 20
+  damage: 25
   movement: {fileID: 0}
   isFinisher: 0
 --- !u!1102 &-443413535904556839
@@ -701,7 +701,7 @@ MonoBehaviour:
   punchAttack: PunchD3
   kickAttack: KickD3
   attackType: 1
-  damage: 20
+  damage: 15
   movement: {fileID: 0}
   isFinisher: 0
 --- !u!1101 &-30772876780071872
@@ -743,109 +743,109 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Kick1
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: PunchA2
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: KickA2
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: PunchB2
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: KickB2
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: PunchA3
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: KickA3
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: PunchB3
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: KickB3
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: PunchC3
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: KickC3
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: PunchD3
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: KickD3
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: IsIdle
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 1
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: GotHurt
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: IsDashing
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: CanDash
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 1
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -904,7 +904,7 @@ MonoBehaviour:
   punchAttack: Punch1
   kickAttack: Kick1
   attackType: 2
-  damage: 30
+  damage: 35
   movement: {fileID: 0}
   isFinisher: 1
 --- !u!114 &543197066000666400
@@ -922,7 +922,7 @@ MonoBehaviour:
   punchAttack: PunchC3
   kickAttack: KickC3
   attackType: 2
-  damage: 20
+  damage: 15
   movement: {fileID: 0}
   isFinisher: 0
 --- !u!1101 &987943171050035188
@@ -1252,7 +1252,7 @@ MonoBehaviour:
   punchAttack: Punch1
   kickAttack: Kick1
   attackType: 2
-  damage: 30
+  damage: 35
   movement: {fileID: 0}
   isFinisher: 1
 --- !u!1101 &3326786281502801698
@@ -1678,7 +1678,7 @@ MonoBehaviour:
   punchAttack: PunchB2
   kickAttack: KickB2
   attackType: 2
-  damage: 10
+  damage: 15
   movement: {fileID: 0}
   isFinisher: 0
 --- !u!1101 &7750949542262055015
@@ -1718,7 +1718,7 @@ MonoBehaviour:
   punchAttack: Punch1
   kickAttack: Kick1
   attackType: 1
-  damage: 30
+  damage: 40
   movement: {fileID: 0}
   isFinisher: 1
 --- !u!1102 &8988806883764692714

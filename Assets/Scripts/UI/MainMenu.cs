@@ -92,6 +92,13 @@ public class MainMenu : MonoBehaviour
         StartCoroutine (LoadSceneAsynchronously(levelName));
     }
 
+    public void GoToCredits()
+    {
+        Time.timeScale = 1;
+        string levelName = "Credits";
+        StartCoroutine(LoadSceneAsynchronously(levelName));
+    }
+
     public void ButtonSFX()
     {
         audioManager.PlaySFX(audioManager.select);
@@ -103,8 +110,8 @@ public class MainMenu : MonoBehaviour
         switch (index)
         {
             case 0:
-                PlayerPrefs.SetFloat("PlayerDamageMultiplier", 1.25f);
-                PlayerPrefs.SetFloat("EnemyDamageMultiplier", 0.75f);
+                PlayerPrefs.SetFloat("PlayerDamageMultiplier", 1.75f);
+                PlayerPrefs.SetFloat("EnemyDamageMultiplier", 0.25f);
                 break;
             case 1:
                 PlayerPrefs.SetFloat("PlayerDamageMultiplier", 1f);
